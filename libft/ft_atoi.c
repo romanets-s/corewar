@@ -32,9 +32,9 @@ int			ft_atoi(const char *str)
 	r = 0;
 	while (*str >= '0' && *str <= '9' && ++over)
 		r = r * 10 + (*str++ - '0');
-	if (over > 18 && n == 1 && !((int)r <= 2147483647))
+/*	if (over > 18 && n == 1 && !((int)r <= 2147483647))
 		return (-1);
 	if (!((int)r >= -2147483648) && n == -1)
 		return (0);
-	return ((int)r * n);
+*/	return ((int)r * n);
 }

@@ -1,68 +1,68 @@
 #include "corewar.h"
 #include <stdio.h>
-# define PROG_NAME_LENGTH       (128)
-# define COMMENT_LENGTH         (2048)
-# define COREWAR_EXEC_MAGIC     0xea83f3
 
-typedef struct prova {
-    int first;
-    int second;
-} prova_t;
-
-
-void    go(int fd)
+void	new_ft_strjoin_2(char *fresh, char *s2)
 {
-    unsigned char *line;
+    char *ptr2;
 
-    line = (unsigned char *)malloc(sizeof(unsigned char)*5600);
-    int n;
-
-    printf("wft");
-    if ((n = read(fd, line, 5600))) {
-        printf("%d wft\n", n);
-    }
-    else
-        printf("WTF bro\n");
-
-    int i = -1;
-    printf(">>%x<<\n", COREWAR_EXEC_MAGIC);
-    printf("|%x|\n", line[2]+256+line[3]);
-    while (++i < n)
+    if (s2)
     {
-        printf("|%x|", line[i]);
+        ptr2 = s2;
+        while (*s2)
+            *(fresh++) = *(s2++);
+        free(ptr2);
+        s2 = NULL;
     }
-    printf("\n");
-    //ft_putstr(line);
-    int fd2 = open("test", O_RDWR | O_CREAT, S_IRUSR | S_IWUSR | S_IWGRP | S_IWOTH);
-    i = -1;
-    while (++i < n)
-    {
-        write(fd2, &line[i], 1);
-    }
-
-    printf("|><|\n");
 }
-#include <sys/stat.h> // For fstat()
-#include <unistd.h>   // For lseek()
+
+char		*new_ft_strjoin(char *s1, char *s2)
+{
+    char	*fresh;
+    char	*ptr1;
+    char	*tmp;
+    int		i;
+
+    tmp = NULL;
+    i = 0;
+    if (s1)
+        i += ft_strlen(s1);
+    if (s2)
+        i += ft_strlen(s2);
+    fresh = ft_strnew(i);
+    if (fresh && s1)
+    {
+        tmp = fresh;
+        ptr1 = s1;
+        while (*s1)
+            *(fresh++) = *(s1++);
+        free(ptr1);
+        s1 = NULL;
+    }
+    new_ft_strjoin_2(fresh, s2);
+    return (tmp);
+}
+
+void    go(int fd, t_asm *bin)
+{
+    char *line;
+
+    while (get_next_line(fd, &line) == 1)
+    {
+        asm->file = new_ft_strjoin(bin->file, line);
+    }
+    printf(">\n%s\n<", bin->file);
+}
+
 int main(int c, char **v)
 {
     int fd;
+    t_asm bin[1];
 
-    if ((fd = open(v[1], O_RDONLY)) == -1)
+    if ((fd = open("v[1]", O_RDONLY)) == -1)
     {
-        printf("error open\n");
+        ft_putstr("Can't open file.\n");
     }
     else
-    {
-        go(fd);
-    }
-
-
-
-
-
-
+        go(fd, &asm);
     return 0;
-
-
 }
