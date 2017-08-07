@@ -1,3 +1,3 @@
-/home/non-root/corewar-s/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/non-root/corewar-s/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/non-root/corewar-s/cmake-build-debug/CMakeFiles/corewar.dir
+/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles/edit_cache.dir
+/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles/corewar.dir
