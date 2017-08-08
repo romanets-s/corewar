@@ -9,9 +9,14 @@
 
 # define BUFF_SIZE 4096
 
-#define T_REG					1
-#define T_DIR					2
-#define T_IND					4
+
+#define T_REG                   1
+#define T_DIR                   2
+#define T_IND                   4
+
+# define REG_CODE               1
+# define DIR_CODE               2
+# define IND_CODE               3
 
 #define COMMENT_CHAR			'#'
 #define LABEL_CHAR				':'
@@ -52,7 +57,7 @@ typedef struct      s_op
 {
     char            *name;
     char            argc;
-    char            **argv;
+    unsigned char   *argv[3];
     char            cod;
     unsigned char   hex;
     char            size;

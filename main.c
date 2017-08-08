@@ -176,24 +176,24 @@ void	operations(t_asm *bin)
 void	op_init(t_asm *bin)
 {
 	*bin = (t_asm){{
-						{"live", 1, (char**)(&"T_DIR"), 0, 1, 4},
-						{"live", 1, (char**)(&"T_DIR"), 0, 1, 4},
-						{"live", 1, (char**)(&"T_DIR"), 0, 1, 4},
-						{"live", 1, (char**)(&"T_DIR"), 0, 1, 4},
-						{"live", 1, (char**)(&"T_DIR"), 0, 1, 4},
-						{"live", 1, (char**)(&"T_DIR"), 0, 1, 4},
-						{"live", 1, (char**)(&"T_DIR"), 0, 1, 4},
-						{"live", 1, (char**)(&"T_DIR"), 0, 1, 4},
-						{"live", 1, (char**)(&"T_DIR"), 0, 1, 4},
-						{"live", 1, (char**)(&"T_DIR"), 0, 1, 4},
-						{"live", 1, (char**)(&"T_DIR"), 0, 1, 4},
-						{"live", 1, (char**)(&"T_DIR"), 0, 1, 4},
-						{"live", 1, (char**)(&"T_DIR"), 0, 1, 4},
-						{"live", 1, (char**)(&"T_DIR"), 0, 1, 4},
-						{"live", 1, (char**)(&"T_DIR"), 0, 1, 4},
-						{"live", 1, (char**)(&"T_DIR"), 0, 1, 4},
+						{"live",	1, {T_DIR, 0, 0}, 0, 1, 4},
+						{"ld",		2, {T_DIR | T_IND, T_REG}, 1, 2, 4},
+						{"st",		2, {T_DIR}, 1, 3, 0},
+						{"add",		3, {T_DIR}, 1, 4, 0},
+						{"sub",		3, {T_DIR}, 1, 5, 0},
+						{"and",		3, {T_DIR}, 1, 6, 4},
+						{"or",		3, {T_DIR}, 1, 7, 4},
+						{"xor",		3, {T_DIR}, 1, 8, 4},
+						{"zjmp",	1, {T_DIR}, 0, 9, 2},
+						{"ldi",		3, {T_DIR}, 1, 10, 2},
+						{"sti",		3, {T_DIR}, 1, 11, 2},
+						{"fork",	1, {T_DIR}, 0, 12, 2},
+						{"lld",		2, {T_DIR}, 1, 13, 4},
+						{"lldi",	3, {T_DIR}, 1, 14, 2},
+						{"lfork",	1, {T_DIR}, 0, 15, 2},
+						{"aff",		1, {T_DIR}, 1, 16, 0},
 						{0, 0, 0, 0, 0, 0}
-				   }, bin->file, bin->i, bin->code, bin->code_size, .name = bin->name,
+                   }, bin->file, bin->i, bin->code, bin->code_size, .name = bin->name,
 			.comm = bin->comm, .file_name = bin->file_name, .head = bin->head};
 }
 
@@ -239,6 +239,8 @@ void	go(int fd, t_asm *bin, char *old_name)
 
 int main(int c, char **v)
 {
+
+    printf("%x, %x, %x", T_REG | T_DIR | T_IND, T_REG | T_IND | T_DIR, T_REG);
 	int fd;
 	t_asm bin[1];
 
