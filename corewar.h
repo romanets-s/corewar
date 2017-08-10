@@ -7,8 +7,7 @@
 # include "libft/libft.h"
 # include "ft_printf/ft_printf.h"
 
-# define BUFF_SIZE 4096
-
+#define BUFF_SIZE               2048
 
 #define T_REG                   1
 #define T_DIR                   2
@@ -36,14 +35,6 @@
 # define COMMENT_LENGTH         (2048)
 # define COREWAR_EXEC_MAGIC     0xea83f3
 
-typedef	struct		s_line
-{
-    int				fd;
-    char			*str;
-    struct s_line	*next;
-}					t_line;
-
-int				get_next_line(const int fd, char **line);
 
 typedef struct		    s_head
 {
@@ -57,12 +48,20 @@ typedef struct      s_op
 {
     char            *name;
     char            argc;
-    unsigned char   *argv[3];
+    unsigned char   argv[3];
     char            cod;
     unsigned char   hex;
     char            size;
 
 }                   t_op;
+
+typedef struct      s_lable
+{
+    char            *name;
+    int             start;
+    int             end;
+
+}                   t_lable;
 
 typedef struct      s_asm
 {
@@ -71,8 +70,10 @@ typedef struct      s_asm
     int             i;
     unsigned char   *code;
     unsigned int    code_size;
+    unsigned int    buff_size;
     int             name;
     int             comm;
+    int             tmp;
     char            *file_name;
     struct s_head   head;
 }                   t_asm;

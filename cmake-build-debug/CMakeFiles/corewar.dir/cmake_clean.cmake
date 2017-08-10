@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/corewar.dir/main.c.o"
-  "CMakeFiles/corewar.dir/get_next_line.c.o"
   "CMakeFiles/corewar.dir/libft/ft_memset.c.o"
   "CMakeFiles/corewar.dir/libft/ft_bzero.c.o"
   "CMakeFiles/corewar.dir/libft/ft_memcpy.c.o"

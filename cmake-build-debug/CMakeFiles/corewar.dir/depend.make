@@ -67,11 +67,6 @@ CMakeFiles/corewar.dir/ft_printf/libft_min_6.c.o: ../ft_printf/libft_min_6.c
 CMakeFiles/corewar.dir/ft_printf/libft_min_7.c.o: ../ft_printf/ft_printf.h
 CMakeFiles/corewar.dir/ft_printf/libft_min_7.c.o: ../ft_printf/libft_min_7.c
 
-CMakeFiles/corewar.dir/get_next_line.c.o: ../corewar.h
-CMakeFiles/corewar.dir/get_next_line.c.o: ../ft_printf/ft_printf.h
-CMakeFiles/corewar.dir/get_next_line.c.o: ../get_next_line.c
-CMakeFiles/corewar.dir/get_next_line.c.o: ../libft/libft.h
-
 CMakeFiles/corewar.dir/libft/ft_atoi.c.o: ../libft/ft_atoi.c
 CMakeFiles/corewar.dir/libft/ft_atoi.c.o: ../libft/libft.h
 

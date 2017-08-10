@@ -1,31 +1,31 @@
 #include "corewar.h"
 #include <stdio.h>
 
-char	*strjoin_and_free(char *s1, char *s2)
+char		*ft_new_strjoin(char *s1, char const *s2)
 {
-	char *fresh;
-	char *ptr;
-	char *tmp;
+    char *fresh;
+    char *ptr;
+    char *tmp;
 
-	tmp = NULL;
-	fresh = (char *)malloc(ft_strlen(s1) + ft_strlen(s2) + 2);
-	if (fresh)
-	{
-		tmp = fresh;
-		ptr = s1;
-		while (*s1)
-			*(fresh++) = *(s1++);
-		*(fresh++) = '\n';
-		ft_strdel(&ptr);
-		ptr = s2;
-		s1 = NULL;
-		while (*s2)
-			*(fresh++) = *(s2++);
-		*fresh = '\0';
-		ft_strdel(&ptr);
-		s2 = NULL;
-	}
-	return (tmp);
+    tmp = NULL;
+    fresh = (char *)malloc(ft_strlen(s1) + ft_strlen(s2) + 1);
+    if (fresh)
+    {
+        tmp = fresh;
+        if (s1)
+        {
+            ptr = s1;
+            while (*s1)
+                *(fresh++) = *(s1++);
+            ft_strdel(&ptr);
+            s1 = NULL;
+        }
+        if (s2)
+            while (*s2)
+                *(fresh++) = *(s2++);
+        *fresh = '\0';
+    }
+    return (tmp);
 }
 
 char	*file_name(char *name, size_t len)
@@ -73,7 +73,7 @@ void	comment(t_asm *bin, int *i)
 
 int	 ft_stn(char c)
 {
-	if (c == ' ' || c == '\t' || c == '\n')
+	if (c == ' ' || c == '\t')
 		return (1);
 	return (0);
 }
@@ -96,7 +96,7 @@ void	commands_date(t_asm *bin, int *i, int max_len, char *str)
 			{
 				if (bin->file[(*i)++] == '\n')
 					return ;
-				if (ft_stn(bin->file[*i]))
+				if (ft_stn(bin->file[*i]) || bin->file[*i] == '\n')
 					continue ;
 				else if (bin->file[*i] == COMMENT_CHAR)
 					comment(bin, i);
@@ -130,12 +130,12 @@ void	name_and_comment(t_asm *bin)
 {
 	int i;
 
-	i = 1;
+	i = 0;
 	while (bin->file[i])
 	{
 		if (bin->name && bin->comm)
 			break ;
-		if (ft_stn(bin->file[i]))
+		if (ft_stn(bin->file[i]) || bin->file[i] == '\n')
 			i++;
 		else if (bin->file[i] == '.')
 			commands(bin, &i);
@@ -144,7 +144,7 @@ void	name_and_comment(t_asm *bin)
 		else
 			error(bin, &i);
 	}
-	while (ft_stn(bin->file[i]) || bin->file[i] == COMMENT_CHAR)
+	while (ft_stn(bin->file[i]) || bin->file[i] == '\n' || bin->file[i] == COMMENT_CHAR)
 	{
 		if (bin->file[i] == COMMENT_CHAR)
 			comment(bin, &i);
@@ -160,38 +160,69 @@ int	 label_chars(char c)
 	return (0);
 }
 
-void	operations(t_asm *bin)
+
+
+int    check_op(t_asm *bin)
+{
+    int n;
+    size_t len;
+
+    n = -1;
+    while (++n < OPERATIONS_NUM)
+    {
+        len = ft_strlen(bin->op[n].name);
+        if (ft_strnequ(bin->op[n].name, bin->file + bin->i, len) && (ft_stn(bin->file[bin->i + len]) || bin->file[bin->i + len] == DIRECT_CHAR))
+        {
+            //go to operation func
+            bin->tmp = n;
+            return (1);
+        }
+    }
+    while (label_chars(bin->file[bin->i]))
+        bin->i++;
+    if (bin->file[bin->i] == ':')
+    {
+        //wtf bro, go to label func
+        return (1);
+    }
+    return (0);
+}
+
+void	lable(t_asm *bin)
 {
 	while (bin->file[bin->i])
 	{
-		while (label_chars(bin->file[bin->i]))
-			bin->i++;
-		if (bin->file[bin->i] == LABEL_CHAR)
-			;
-		else
-			error(bin, &bin->i);
+        if (check_op(bin))
+        {
+
+            printf("wtf borooo\n");
+            bin->tmp = -1;
+            exit(0);
+        }
+        else
+            error(bin, &bin->i);
 	}
 }
 
 void	op_init(t_asm *bin)
 {
 	*bin = (t_asm){{
-						{"live",	1, {T_DIR, 0, 0}, 0, 1, 4},
+						{"live",	1, {T_DIR}, 0, 1, 4},
 						{"ld",		2, {T_DIR | T_IND, T_REG}, 1, 2, 4},
-						{"st",		2, {T_DIR}, 1, 3, 0},
-						{"add",		3, {T_DIR}, 1, 4, 0},
-						{"sub",		3, {T_DIR}, 1, 5, 0},
-						{"and",		3, {T_DIR}, 1, 6, 4},
-						{"or",		3, {T_DIR}, 1, 7, 4},
-						{"xor",		3, {T_DIR}, 1, 8, 4},
+						{"st",		2, {T_REG, T_IND | T_REG}, 1, 3, 0},
+						{"add",		3, {T_REG, T_REG, T_REG}, 1, 4, 0},
+						{"sub",		3, {T_REG, T_REG, T_REG}, 1, 5, 0},
+						{"and",		3, {T_REG | T_DIR | T_IND, T_REG | T_IND | T_DIR, T_REG}, 1, 6, 4},
+						{"or",		3, {T_REG | T_IND | T_DIR, T_REG | T_IND | T_DIR, T_REG}, 1, 7, 4},
+						{"xor",		3, {T_REG | T_IND | T_DIR, T_REG | T_IND | T_DIR, T_REG}, 1, 8, 4},
 						{"zjmp",	1, {T_DIR}, 0, 9, 2},
-						{"ldi",		3, {T_DIR}, 1, 10, 2},
-						{"sti",		3, {T_DIR}, 1, 11, 2},
+						{"ldi",		3, {T_REG | T_DIR | T_IND, T_DIR | T_REG, T_REG}, 1, 10, 2},
+						{"sti",		3, {T_REG, T_REG | T_DIR | T_IND, T_DIR | T_REG}, 1, 11, 2},
 						{"fork",	1, {T_DIR}, 0, 12, 2},
-						{"lld",		2, {T_DIR}, 1, 13, 4},
-						{"lldi",	3, {T_DIR}, 1, 14, 2},
+						{"lld",		2, {T_DIR | T_IND, T_REG}, 1, 13, 4},
+						{"lldi",	3, {T_REG | T_DIR | T_IND, T_DIR | T_REG, T_REG}, 1, 14, 2},
 						{"lfork",	1, {T_DIR}, 0, 15, 2},
-						{"aff",		1, {T_DIR}, 1, 16, 0},
+						{"aff",		1, {T_REG}, 1, 16, 0},
 						{0, 0, 0, 0, 0, 0}
                    }, bin->file, bin->i, bin->code, bin->code_size, .name = bin->name,
 			.comm = bin->comm, .file_name = bin->file_name, .head = bin->head};
@@ -199,8 +230,12 @@ void	op_init(t_asm *bin)
 
 void	asm_init(t_asm *bin)
 {
+    op_init(bin);
 	bin->name = 0;
 	bin->comm = 0;
+    bin->buff_size = BUFF_SIZE;
+    bin->code = (unsigned char *)malloc(sizeof(unsigned char) * bin->buff_size);
+
 
 	bin->head.magic = COREWAR_EXEC_MAGIC;
 //	bin->code_size = sizeof(bin->head.magic) + PROG_NAME_LENGTH + 1 + 4 - ((PROG_NAME_LENGTH + 1) % 4) + 4
@@ -208,24 +243,27 @@ void	asm_init(t_asm *bin)
 //	bin->code = (unsigned char *)ft_strnew(bin->code_size);
 //	write_magic(bin, COREWAR_EXEC_MAGIC);
 	name_and_comment(bin);
-	op_init(bin);
+
 
 	printf("%s\n", bin->head.prog_name);
 	printf("%s\n", bin->head.comment);
 
-	operations(bin);
+    lable(bin);
 
 
 }
 
 void	go(int fd, t_asm *bin, char *old_name)
 {
-	char *line;
+	char line[4096];
+    ssize_t n;
 
-	line = NULL;
 	bin->file = ft_strnew(0);
-	while (get_next_line(fd, &line) == 1)
-		bin->file = strjoin_and_free(bin->file, line);
+    while ((n = read(fd, line, 4096)))
+    {
+        line[n] = '\0';
+        bin->file = ft_new_strjoin(bin->file, line);
+    }
 	close(fd);
 
 
@@ -240,8 +278,7 @@ void	go(int fd, t_asm *bin, char *old_name)
 int main(int c, char **v)
 {
 
-    printf("%x, %x, %x", T_REG | T_DIR | T_IND, T_REG | T_IND | T_DIR, T_REG);
-	int fd;
+    int fd;
 	t_asm bin[1];
 
 	if ((fd = open(v[1], O_RDONLY)) == -1)

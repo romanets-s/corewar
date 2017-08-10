@@ -717,33 +717,6 @@ ft_printf/libft_min_7.c.s:
 	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/ft_printf/libft_min_7.c.s
 .PHONY : ft_printf/libft_min_7.c.s
 
-get_next_line.o: get_next_line.c.o
-
-.PHONY : get_next_line.o
-
-# target to build an object file
-get_next_line.c.o:
-	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/get_next_line.c.o
-.PHONY : get_next_line.c.o
-
-get_next_line.i: get_next_line.c.i
-
-.PHONY : get_next_line.i
-
-# target to preprocess a source file
-get_next_line.c.i:
-	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/get_next_line.c.i
-.PHONY : get_next_line.c.i
-
-get_next_line.s: get_next_line.c.s
-
-.PHONY : get_next_line.s
-
-# target to generate assembly for a file
-get_next_line.c.s:
-	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/get_next_line.c.s
-.PHONY : get_next_line.c.s
-
 libft/ft_atoi.o: libft/ft_atoi.c.o
 
 .PHONY : libft/ft_atoi.o
@@ -2547,9 +2520,6 @@ help:
 	@echo "... ft_printf/libft_min_7.o"
 	@echo "... ft_printf/libft_min_7.i"
 	@echo "... ft_printf/libft_min_7.s"
-	@echo "... get_next_line.o"
-	@echo "... get_next_line.i"
-	@echo "... get_next_line.s"
 	@echo "... libft/ft_atoi.o"
 	@echo "... libft/ft_atoi.i"
 	@echo "... libft/ft_atoi.s"

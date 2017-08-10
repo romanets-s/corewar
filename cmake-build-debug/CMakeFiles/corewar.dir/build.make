@@ -81,33 +81,9 @@ CMakeFiles/corewar.dir/main.c.o.provides: CMakeFiles/corewar.dir/main.c.o.requir
 CMakeFiles/corewar.dir/main.c.o.provides.build: CMakeFiles/corewar.dir/main.c.o
 
 
-CMakeFiles/corewar.dir/get_next_line.c.o: CMakeFiles/corewar.dir/flags.make
-CMakeFiles/corewar.dir/get_next_line.c.o: ../get_next_line.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/corewar.dir/get_next_line.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/get_next_line.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/get_next_line.c
-
-CMakeFiles/corewar.dir/get_next_line.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/get_next_line.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/s/sromanet/romanets/corewar/get_next_line.c > CMakeFiles/corewar.dir/get_next_line.c.i
-
-CMakeFiles/corewar.dir/get_next_line.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/get_next_line.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/s/sromanet/romanets/corewar/get_next_line.c -o CMakeFiles/corewar.dir/get_next_line.c.s
-
-CMakeFiles/corewar.dir/get_next_line.c.o.requires:
-
-.PHONY : CMakeFiles/corewar.dir/get_next_line.c.o.requires
-
-CMakeFiles/corewar.dir/get_next_line.c.o.provides: CMakeFiles/corewar.dir/get_next_line.c.o.requires
-	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/get_next_line.c.o.provides.build
-.PHONY : CMakeFiles/corewar.dir/get_next_line.c.o.provides
-
-CMakeFiles/corewar.dir/get_next_line.c.o.provides.build: CMakeFiles/corewar.dir/get_next_line.c.o
-
-
 CMakeFiles/corewar.dir/libft/ft_memset.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_memset.c.o: ../libft/ft_memset.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/corewar.dir/libft/ft_memset.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/corewar.dir/libft/ft_memset.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_memset.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_memset.c
 
 CMakeFiles/corewar.dir/libft/ft_memset.c.i: cmake_force
@@ -131,7 +107,7 @@ CMakeFiles/corewar.dir/libft/ft_memset.c.o.provides.build: CMakeFiles/corewar.di
 
 CMakeFiles/corewar.dir/libft/ft_bzero.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_bzero.c.o: ../libft/ft_bzero.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/corewar.dir/libft/ft_bzero.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/corewar.dir/libft/ft_bzero.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_bzero.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_bzero.c
 
 CMakeFiles/corewar.dir/libft/ft_bzero.c.i: cmake_force
@@ -155,7 +131,7 @@ CMakeFiles/corewar.dir/libft/ft_bzero.c.o.provides.build: CMakeFiles/corewar.dir
 
 CMakeFiles/corewar.dir/libft/ft_memcpy.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_memcpy.c.o: ../libft/ft_memcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/corewar.dir/libft/ft_memcpy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/corewar.dir/libft/ft_memcpy.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_memcpy.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_memcpy.c
 
 CMakeFiles/corewar.dir/libft/ft_memcpy.c.i: cmake_force
@@ -179,7 +155,7 @@ CMakeFiles/corewar.dir/libft/ft_memcpy.c.o.provides.build: CMakeFiles/corewar.di
 
 CMakeFiles/corewar.dir/libft/ft_memccpy.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_memccpy.c.o: ../libft/ft_memccpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/corewar.dir/libft/ft_memccpy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/corewar.dir/libft/ft_memccpy.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_memccpy.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_memccpy.c
 
 CMakeFiles/corewar.dir/libft/ft_memccpy.c.i: cmake_force
@@ -203,7 +179,7 @@ CMakeFiles/corewar.dir/libft/ft_memccpy.c.o.provides.build: CMakeFiles/corewar.d
 
 CMakeFiles/corewar.dir/libft/ft_memmove.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_memmove.c.o: ../libft/ft_memmove.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/corewar.dir/libft/ft_memmove.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/corewar.dir/libft/ft_memmove.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_memmove.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_memmove.c
 
 CMakeFiles/corewar.dir/libft/ft_memmove.c.i: cmake_force
@@ -227,7 +203,7 @@ CMakeFiles/corewar.dir/libft/ft_memmove.c.o.provides.build: CMakeFiles/corewar.d
 
 CMakeFiles/corewar.dir/libft/ft_memchr.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_memchr.c.o: ../libft/ft_memchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/corewar.dir/libft/ft_memchr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/corewar.dir/libft/ft_memchr.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_memchr.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_memchr.c
 
 CMakeFiles/corewar.dir/libft/ft_memchr.c.i: cmake_force
@@ -251,7 +227,7 @@ CMakeFiles/corewar.dir/libft/ft_memchr.c.o.provides.build: CMakeFiles/corewar.di
 
 CMakeFiles/corewar.dir/libft/ft_memcmp.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_memcmp.c.o: ../libft/ft_memcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/corewar.dir/libft/ft_memcmp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/corewar.dir/libft/ft_memcmp.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_memcmp.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_memcmp.c
 
 CMakeFiles/corewar.dir/libft/ft_memcmp.c.i: cmake_force
@@ -275,7 +251,7 @@ CMakeFiles/corewar.dir/libft/ft_memcmp.c.o.provides.build: CMakeFiles/corewar.di
 
 CMakeFiles/corewar.dir/libft/ft_strlen.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_strlen.c.o: ../libft/ft_strlen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/corewar.dir/libft/ft_strlen.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/corewar.dir/libft/ft_strlen.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_strlen.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_strlen.c
 
 CMakeFiles/corewar.dir/libft/ft_strlen.c.i: cmake_force
@@ -299,7 +275,7 @@ CMakeFiles/corewar.dir/libft/ft_strlen.c.o.provides.build: CMakeFiles/corewar.di
 
 CMakeFiles/corewar.dir/libft/ft_strdup.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_strdup.c.o: ../libft/ft_strdup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/corewar.dir/libft/ft_strdup.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/corewar.dir/libft/ft_strdup.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_strdup.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_strdup.c
 
 CMakeFiles/corewar.dir/libft/ft_strdup.c.i: cmake_force
@@ -323,7 +299,7 @@ CMakeFiles/corewar.dir/libft/ft_strdup.c.o.provides.build: CMakeFiles/corewar.di
 
 CMakeFiles/corewar.dir/libft/ft_strcpy.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_strcpy.c.o: ../libft/ft_strcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/corewar.dir/libft/ft_strcpy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/corewar.dir/libft/ft_strcpy.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_strcpy.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_strcpy.c
 
 CMakeFiles/corewar.dir/libft/ft_strcpy.c.i: cmake_force
@@ -347,7 +323,7 @@ CMakeFiles/corewar.dir/libft/ft_strcpy.c.o.provides.build: CMakeFiles/corewar.di
 
 CMakeFiles/corewar.dir/libft/ft_strncpy.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_strncpy.c.o: ../libft/ft_strncpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/corewar.dir/libft/ft_strncpy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/corewar.dir/libft/ft_strncpy.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_strncpy.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_strncpy.c
 
 CMakeFiles/corewar.dir/libft/ft_strncpy.c.i: cmake_force
@@ -371,7 +347,7 @@ CMakeFiles/corewar.dir/libft/ft_strncpy.c.o.provides.build: CMakeFiles/corewar.d
 
 CMakeFiles/corewar.dir/libft/ft_strcat.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_strcat.c.o: ../libft/ft_strcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/corewar.dir/libft/ft_strcat.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/corewar.dir/libft/ft_strcat.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_strcat.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_strcat.c
 
 CMakeFiles/corewar.dir/libft/ft_strcat.c.i: cmake_force
@@ -395,7 +371,7 @@ CMakeFiles/corewar.dir/libft/ft_strcat.c.o.provides.build: CMakeFiles/corewar.di
 
 CMakeFiles/corewar.dir/libft/ft_strncat.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_strncat.c.o: ../libft/ft_strncat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/corewar.dir/libft/ft_strncat.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/corewar.dir/libft/ft_strncat.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_strncat.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_strncat.c
 
 CMakeFiles/corewar.dir/libft/ft_strncat.c.i: cmake_force
@@ -419,7 +395,7 @@ CMakeFiles/corewar.dir/libft/ft_strncat.c.o.provides.build: CMakeFiles/corewar.d
 
 CMakeFiles/corewar.dir/libft/ft_strlcat.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_strlcat.c.o: ../libft/ft_strlcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/corewar.dir/libft/ft_strlcat.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/corewar.dir/libft/ft_strlcat.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_strlcat.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_strlcat.c
 
 CMakeFiles/corewar.dir/libft/ft_strlcat.c.i: cmake_force
@@ -443,7 +419,7 @@ CMakeFiles/corewar.dir/libft/ft_strlcat.c.o.provides.build: CMakeFiles/corewar.d
 
 CMakeFiles/corewar.dir/libft/ft_strchr.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_strchr.c.o: ../libft/ft_strchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/corewar.dir/libft/ft_strchr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/corewar.dir/libft/ft_strchr.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_strchr.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_strchr.c
 
 CMakeFiles/corewar.dir/libft/ft_strchr.c.i: cmake_force
@@ -467,7 +443,7 @@ CMakeFiles/corewar.dir/libft/ft_strchr.c.o.provides.build: CMakeFiles/corewar.di
 
 CMakeFiles/corewar.dir/libft/ft_strrchr.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_strrchr.c.o: ../libft/ft_strrchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/corewar.dir/libft/ft_strrchr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/corewar.dir/libft/ft_strrchr.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_strrchr.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_strrchr.c
 
 CMakeFiles/corewar.dir/libft/ft_strrchr.c.i: cmake_force
@@ -491,7 +467,7 @@ CMakeFiles/corewar.dir/libft/ft_strrchr.c.o.provides.build: CMakeFiles/corewar.d
 
 CMakeFiles/corewar.dir/libft/ft_strstr.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_strstr.c.o: ../libft/ft_strstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/corewar.dir/libft/ft_strstr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/corewar.dir/libft/ft_strstr.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_strstr.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_strstr.c
 
 CMakeFiles/corewar.dir/libft/ft_strstr.c.i: cmake_force
@@ -515,7 +491,7 @@ CMakeFiles/corewar.dir/libft/ft_strstr.c.o.provides.build: CMakeFiles/corewar.di
 
 CMakeFiles/corewar.dir/libft/ft_strnstr.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_strnstr.c.o: ../libft/ft_strnstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/corewar.dir/libft/ft_strnstr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/corewar.dir/libft/ft_strnstr.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_strnstr.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_strnstr.c
 
 CMakeFiles/corewar.dir/libft/ft_strnstr.c.i: cmake_force
@@ -539,7 +515,7 @@ CMakeFiles/corewar.dir/libft/ft_strnstr.c.o.provides.build: CMakeFiles/corewar.d
 
 CMakeFiles/corewar.dir/libft/ft_strcmp.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_strcmp.c.o: ../libft/ft_strcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/corewar.dir/libft/ft_strcmp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/corewar.dir/libft/ft_strcmp.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_strcmp.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_strcmp.c
 
 CMakeFiles/corewar.dir/libft/ft_strcmp.c.i: cmake_force
@@ -563,7 +539,7 @@ CMakeFiles/corewar.dir/libft/ft_strcmp.c.o.provides.build: CMakeFiles/corewar.di
 
 CMakeFiles/corewar.dir/libft/ft_strncmp.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_strncmp.c.o: ../libft/ft_strncmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/corewar.dir/libft/ft_strncmp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/corewar.dir/libft/ft_strncmp.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_strncmp.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_strncmp.c
 
 CMakeFiles/corewar.dir/libft/ft_strncmp.c.i: cmake_force
@@ -587,7 +563,7 @@ CMakeFiles/corewar.dir/libft/ft_strncmp.c.o.provides.build: CMakeFiles/corewar.d
 
 CMakeFiles/corewar.dir/libft/ft_atoi.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_atoi.c.o: ../libft/ft_atoi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/corewar.dir/libft/ft_atoi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/corewar.dir/libft/ft_atoi.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_atoi.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_atoi.c
 
 CMakeFiles/corewar.dir/libft/ft_atoi.c.i: cmake_force
@@ -611,7 +587,7 @@ CMakeFiles/corewar.dir/libft/ft_atoi.c.o.provides.build: CMakeFiles/corewar.dir/
 
 CMakeFiles/corewar.dir/libft/ft_isalpha.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_isalpha.c.o: ../libft/ft_isalpha.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/corewar.dir/libft/ft_isalpha.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/corewar.dir/libft/ft_isalpha.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_isalpha.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_isalpha.c
 
 CMakeFiles/corewar.dir/libft/ft_isalpha.c.i: cmake_force
@@ -635,7 +611,7 @@ CMakeFiles/corewar.dir/libft/ft_isalpha.c.o.provides.build: CMakeFiles/corewar.d
 
 CMakeFiles/corewar.dir/libft/ft_isdigit.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_isdigit.c.o: ../libft/ft_isdigit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/corewar.dir/libft/ft_isdigit.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/corewar.dir/libft/ft_isdigit.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_isdigit.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_isdigit.c
 
 CMakeFiles/corewar.dir/libft/ft_isdigit.c.i: cmake_force
@@ -659,7 +635,7 @@ CMakeFiles/corewar.dir/libft/ft_isdigit.c.o.provides.build: CMakeFiles/corewar.d
 
 CMakeFiles/corewar.dir/libft/ft_isalnum.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_isalnum.c.o: ../libft/ft_isalnum.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/corewar.dir/libft/ft_isalnum.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/corewar.dir/libft/ft_isalnum.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_isalnum.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_isalnum.c
 
 CMakeFiles/corewar.dir/libft/ft_isalnum.c.i: cmake_force
@@ -683,7 +659,7 @@ CMakeFiles/corewar.dir/libft/ft_isalnum.c.o.provides.build: CMakeFiles/corewar.d
 
 CMakeFiles/corewar.dir/libft/ft_isascii.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_isascii.c.o: ../libft/ft_isascii.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/corewar.dir/libft/ft_isascii.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/corewar.dir/libft/ft_isascii.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_isascii.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_isascii.c
 
 CMakeFiles/corewar.dir/libft/ft_isascii.c.i: cmake_force
@@ -707,7 +683,7 @@ CMakeFiles/corewar.dir/libft/ft_isascii.c.o.provides.build: CMakeFiles/corewar.d
 
 CMakeFiles/corewar.dir/libft/ft_isprint.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_isprint.c.o: ../libft/ft_isprint.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/corewar.dir/libft/ft_isprint.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/corewar.dir/libft/ft_isprint.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_isprint.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_isprint.c
 
 CMakeFiles/corewar.dir/libft/ft_isprint.c.i: cmake_force
@@ -731,7 +707,7 @@ CMakeFiles/corewar.dir/libft/ft_isprint.c.o.provides.build: CMakeFiles/corewar.d
 
 CMakeFiles/corewar.dir/libft/ft_toupper.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_toupper.c.o: ../libft/ft_toupper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/corewar.dir/libft/ft_toupper.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/corewar.dir/libft/ft_toupper.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_toupper.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_toupper.c
 
 CMakeFiles/corewar.dir/libft/ft_toupper.c.i: cmake_force
@@ -755,7 +731,7 @@ CMakeFiles/corewar.dir/libft/ft_toupper.c.o.provides.build: CMakeFiles/corewar.d
 
 CMakeFiles/corewar.dir/libft/ft_tolower.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_tolower.c.o: ../libft/ft_tolower.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/corewar.dir/libft/ft_tolower.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/corewar.dir/libft/ft_tolower.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_tolower.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_tolower.c
 
 CMakeFiles/corewar.dir/libft/ft_tolower.c.i: cmake_force
@@ -779,7 +755,7 @@ CMakeFiles/corewar.dir/libft/ft_tolower.c.o.provides.build: CMakeFiles/corewar.d
 
 CMakeFiles/corewar.dir/libft/ft_memalloc.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_memalloc.c.o: ../libft/ft_memalloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/corewar.dir/libft/ft_memalloc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/corewar.dir/libft/ft_memalloc.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_memalloc.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_memalloc.c
 
 CMakeFiles/corewar.dir/libft/ft_memalloc.c.i: cmake_force
@@ -803,7 +779,7 @@ CMakeFiles/corewar.dir/libft/ft_memalloc.c.o.provides.build: CMakeFiles/corewar.
 
 CMakeFiles/corewar.dir/libft/ft_memdel.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_memdel.c.o: ../libft/ft_memdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/corewar.dir/libft/ft_memdel.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/corewar.dir/libft/ft_memdel.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_memdel.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_memdel.c
 
 CMakeFiles/corewar.dir/libft/ft_memdel.c.i: cmake_force
@@ -827,7 +803,7 @@ CMakeFiles/corewar.dir/libft/ft_memdel.c.o.provides.build: CMakeFiles/corewar.di
 
 CMakeFiles/corewar.dir/libft/ft_strnew.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_strnew.c.o: ../libft/ft_strnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/corewar.dir/libft/ft_strnew.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/corewar.dir/libft/ft_strnew.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_strnew.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_strnew.c
 
 CMakeFiles/corewar.dir/libft/ft_strnew.c.i: cmake_force
@@ -851,7 +827,7 @@ CMakeFiles/corewar.dir/libft/ft_strnew.c.o.provides.build: CMakeFiles/corewar.di
 
 CMakeFiles/corewar.dir/libft/ft_strdel.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_strdel.c.o: ../libft/ft_strdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/corewar.dir/libft/ft_strdel.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/corewar.dir/libft/ft_strdel.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_strdel.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_strdel.c
 
 CMakeFiles/corewar.dir/libft/ft_strdel.c.i: cmake_force
@@ -875,7 +851,7 @@ CMakeFiles/corewar.dir/libft/ft_strdel.c.o.provides.build: CMakeFiles/corewar.di
 
 CMakeFiles/corewar.dir/libft/ft_strclr.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_strclr.c.o: ../libft/ft_strclr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/corewar.dir/libft/ft_strclr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/corewar.dir/libft/ft_strclr.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_strclr.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_strclr.c
 
 CMakeFiles/corewar.dir/libft/ft_strclr.c.i: cmake_force
@@ -899,7 +875,7 @@ CMakeFiles/corewar.dir/libft/ft_strclr.c.o.provides.build: CMakeFiles/corewar.di
 
 CMakeFiles/corewar.dir/libft/ft_striter.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_striter.c.o: ../libft/ft_striter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/corewar.dir/libft/ft_striter.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/corewar.dir/libft/ft_striter.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_striter.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_striter.c
 
 CMakeFiles/corewar.dir/libft/ft_striter.c.i: cmake_force
@@ -923,7 +899,7 @@ CMakeFiles/corewar.dir/libft/ft_striter.c.o.provides.build: CMakeFiles/corewar.d
 
 CMakeFiles/corewar.dir/libft/ft_striteri.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_striteri.c.o: ../libft/ft_striteri.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/corewar.dir/libft/ft_striteri.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/corewar.dir/libft/ft_striteri.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_striteri.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_striteri.c
 
 CMakeFiles/corewar.dir/libft/ft_striteri.c.i: cmake_force
@@ -947,7 +923,7 @@ CMakeFiles/corewar.dir/libft/ft_striteri.c.o.provides.build: CMakeFiles/corewar.
 
 CMakeFiles/corewar.dir/libft/ft_strmap.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_strmap.c.o: ../libft/ft_strmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/corewar.dir/libft/ft_strmap.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/corewar.dir/libft/ft_strmap.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_strmap.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_strmap.c
 
 CMakeFiles/corewar.dir/libft/ft_strmap.c.i: cmake_force
@@ -971,7 +947,7 @@ CMakeFiles/corewar.dir/libft/ft_strmap.c.o.provides.build: CMakeFiles/corewar.di
 
 CMakeFiles/corewar.dir/libft/ft_strmapi.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_strmapi.c.o: ../libft/ft_strmapi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/corewar.dir/libft/ft_strmapi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/corewar.dir/libft/ft_strmapi.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_strmapi.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_strmapi.c
 
 CMakeFiles/corewar.dir/libft/ft_strmapi.c.i: cmake_force
@@ -995,7 +971,7 @@ CMakeFiles/corewar.dir/libft/ft_strmapi.c.o.provides.build: CMakeFiles/corewar.d
 
 CMakeFiles/corewar.dir/libft/ft_strequ.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_strequ.c.o: ../libft/ft_strequ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/corewar.dir/libft/ft_strequ.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/corewar.dir/libft/ft_strequ.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_strequ.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_strequ.c
 
 CMakeFiles/corewar.dir/libft/ft_strequ.c.i: cmake_force
@@ -1019,7 +995,7 @@ CMakeFiles/corewar.dir/libft/ft_strequ.c.o.provides.build: CMakeFiles/corewar.di
 
 CMakeFiles/corewar.dir/libft/ft_strnequ.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_strnequ.c.o: ../libft/ft_strnequ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/corewar.dir/libft/ft_strnequ.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/corewar.dir/libft/ft_strnequ.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_strnequ.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_strnequ.c
 
 CMakeFiles/corewar.dir/libft/ft_strnequ.c.i: cmake_force
@@ -1043,7 +1019,7 @@ CMakeFiles/corewar.dir/libft/ft_strnequ.c.o.provides.build: CMakeFiles/corewar.d
 
 CMakeFiles/corewar.dir/libft/ft_strsub.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_strsub.c.o: ../libft/ft_strsub.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/corewar.dir/libft/ft_strsub.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/corewar.dir/libft/ft_strsub.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_strsub.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_strsub.c
 
 CMakeFiles/corewar.dir/libft/ft_strsub.c.i: cmake_force
@@ -1067,7 +1043,7 @@ CMakeFiles/corewar.dir/libft/ft_strsub.c.o.provides.build: CMakeFiles/corewar.di
 
 CMakeFiles/corewar.dir/libft/ft_strjoin.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_strjoin.c.o: ../libft/ft_strjoin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/corewar.dir/libft/ft_strjoin.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/corewar.dir/libft/ft_strjoin.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_strjoin.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_strjoin.c
 
 CMakeFiles/corewar.dir/libft/ft_strjoin.c.i: cmake_force
@@ -1091,7 +1067,7 @@ CMakeFiles/corewar.dir/libft/ft_strjoin.c.o.provides.build: CMakeFiles/corewar.d
 
 CMakeFiles/corewar.dir/libft/ft_strtrim.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_strtrim.c.o: ../libft/ft_strtrim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/corewar.dir/libft/ft_strtrim.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/corewar.dir/libft/ft_strtrim.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_strtrim.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_strtrim.c
 
 CMakeFiles/corewar.dir/libft/ft_strtrim.c.i: cmake_force
@@ -1115,7 +1091,7 @@ CMakeFiles/corewar.dir/libft/ft_strtrim.c.o.provides.build: CMakeFiles/corewar.d
 
 CMakeFiles/corewar.dir/libft/ft_strsplit.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_strsplit.c.o: ../libft/ft_strsplit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/corewar.dir/libft/ft_strsplit.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/corewar.dir/libft/ft_strsplit.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_strsplit.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_strsplit.c
 
 CMakeFiles/corewar.dir/libft/ft_strsplit.c.i: cmake_force
@@ -1139,7 +1115,7 @@ CMakeFiles/corewar.dir/libft/ft_strsplit.c.o.provides.build: CMakeFiles/corewar.
 
 CMakeFiles/corewar.dir/libft/ft_itoa.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_itoa.c.o: ../libft/ft_itoa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/corewar.dir/libft/ft_itoa.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/corewar.dir/libft/ft_itoa.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_itoa.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_itoa.c
 
 CMakeFiles/corewar.dir/libft/ft_itoa.c.i: cmake_force
@@ -1163,7 +1139,7 @@ CMakeFiles/corewar.dir/libft/ft_itoa.c.o.provides.build: CMakeFiles/corewar.dir/
 
 CMakeFiles/corewar.dir/libft/ft_putchar.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_putchar.c.o: ../libft/ft_putchar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/corewar.dir/libft/ft_putchar.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/corewar.dir/libft/ft_putchar.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_putchar.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_putchar.c
 
 CMakeFiles/corewar.dir/libft/ft_putchar.c.i: cmake_force
@@ -1187,7 +1163,7 @@ CMakeFiles/corewar.dir/libft/ft_putchar.c.o.provides.build: CMakeFiles/corewar.d
 
 CMakeFiles/corewar.dir/libft/ft_putstr.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_putstr.c.o: ../libft/ft_putstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/corewar.dir/libft/ft_putstr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/corewar.dir/libft/ft_putstr.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_putstr.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_putstr.c
 
 CMakeFiles/corewar.dir/libft/ft_putstr.c.i: cmake_force
@@ -1211,7 +1187,7 @@ CMakeFiles/corewar.dir/libft/ft_putstr.c.o.provides.build: CMakeFiles/corewar.di
 
 CMakeFiles/corewar.dir/libft/ft_putendl.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_putendl.c.o: ../libft/ft_putendl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/corewar.dir/libft/ft_putendl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/corewar.dir/libft/ft_putendl.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_putendl.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_putendl.c
 
 CMakeFiles/corewar.dir/libft/ft_putendl.c.i: cmake_force
@@ -1235,7 +1211,7 @@ CMakeFiles/corewar.dir/libft/ft_putendl.c.o.provides.build: CMakeFiles/corewar.d
 
 CMakeFiles/corewar.dir/libft/ft_putnbr.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_putnbr.c.o: ../libft/ft_putnbr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/corewar.dir/libft/ft_putnbr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/corewar.dir/libft/ft_putnbr.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_putnbr.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_putnbr.c
 
 CMakeFiles/corewar.dir/libft/ft_putnbr.c.i: cmake_force
@@ -1259,7 +1235,7 @@ CMakeFiles/corewar.dir/libft/ft_putnbr.c.o.provides.build: CMakeFiles/corewar.di
 
 CMakeFiles/corewar.dir/libft/ft_putchar_fd.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_putchar_fd.c.o: ../libft/ft_putchar_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/corewar.dir/libft/ft_putchar_fd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/corewar.dir/libft/ft_putchar_fd.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_putchar_fd.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_putchar_fd.c
 
 CMakeFiles/corewar.dir/libft/ft_putchar_fd.c.i: cmake_force
@@ -1283,7 +1259,7 @@ CMakeFiles/corewar.dir/libft/ft_putchar_fd.c.o.provides.build: CMakeFiles/corewa
 
 CMakeFiles/corewar.dir/libft/ft_putstr_fd.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_putstr_fd.c.o: ../libft/ft_putstr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/corewar.dir/libft/ft_putstr_fd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/corewar.dir/libft/ft_putstr_fd.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_putstr_fd.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_putstr_fd.c
 
 CMakeFiles/corewar.dir/libft/ft_putstr_fd.c.i: cmake_force
@@ -1307,7 +1283,7 @@ CMakeFiles/corewar.dir/libft/ft_putstr_fd.c.o.provides.build: CMakeFiles/corewar
 
 CMakeFiles/corewar.dir/libft/ft_putendl_fd.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_putendl_fd.c.o: ../libft/ft_putendl_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/corewar.dir/libft/ft_putendl_fd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/corewar.dir/libft/ft_putendl_fd.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_putendl_fd.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_putendl_fd.c
 
 CMakeFiles/corewar.dir/libft/ft_putendl_fd.c.i: cmake_force
@@ -1331,7 +1307,7 @@ CMakeFiles/corewar.dir/libft/ft_putendl_fd.c.o.provides.build: CMakeFiles/corewa
 
 CMakeFiles/corewar.dir/libft/ft_putnbr_fd.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_putnbr_fd.c.o: ../libft/ft_putnbr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/corewar.dir/libft/ft_putnbr_fd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/corewar.dir/libft/ft_putnbr_fd.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_putnbr_fd.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_putnbr_fd.c
 
 CMakeFiles/corewar.dir/libft/ft_putnbr_fd.c.i: cmake_force
@@ -1355,7 +1331,7 @@ CMakeFiles/corewar.dir/libft/ft_putnbr_fd.c.o.provides.build: CMakeFiles/corewar
 
 CMakeFiles/corewar.dir/libft/ft_lstnew.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_lstnew.c.o: ../libft/ft_lstnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/corewar.dir/libft/ft_lstnew.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/corewar.dir/libft/ft_lstnew.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_lstnew.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_lstnew.c
 
 CMakeFiles/corewar.dir/libft/ft_lstnew.c.i: cmake_force
@@ -1379,7 +1355,7 @@ CMakeFiles/corewar.dir/libft/ft_lstnew.c.o.provides.build: CMakeFiles/corewar.di
 
 CMakeFiles/corewar.dir/libft/ft_lstdelone.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_lstdelone.c.o: ../libft/ft_lstdelone.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/corewar.dir/libft/ft_lstdelone.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/corewar.dir/libft/ft_lstdelone.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_lstdelone.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_lstdelone.c
 
 CMakeFiles/corewar.dir/libft/ft_lstdelone.c.i: cmake_force
@@ -1403,7 +1379,7 @@ CMakeFiles/corewar.dir/libft/ft_lstdelone.c.o.provides.build: CMakeFiles/corewar
 
 CMakeFiles/corewar.dir/libft/ft_lstdel.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_lstdel.c.o: ../libft/ft_lstdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/corewar.dir/libft/ft_lstdel.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/corewar.dir/libft/ft_lstdel.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_lstdel.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_lstdel.c
 
 CMakeFiles/corewar.dir/libft/ft_lstdel.c.i: cmake_force
@@ -1427,7 +1403,7 @@ CMakeFiles/corewar.dir/libft/ft_lstdel.c.o.provides.build: CMakeFiles/corewar.di
 
 CMakeFiles/corewar.dir/libft/ft_lstadd.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_lstadd.c.o: ../libft/ft_lstadd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/corewar.dir/libft/ft_lstadd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/corewar.dir/libft/ft_lstadd.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_lstadd.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_lstadd.c
 
 CMakeFiles/corewar.dir/libft/ft_lstadd.c.i: cmake_force
@@ -1451,7 +1427,7 @@ CMakeFiles/corewar.dir/libft/ft_lstadd.c.o.provides.build: CMakeFiles/corewar.di
 
 CMakeFiles/corewar.dir/libft/ft_lstiter.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_lstiter.c.o: ../libft/ft_lstiter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/corewar.dir/libft/ft_lstiter.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/corewar.dir/libft/ft_lstiter.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_lstiter.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_lstiter.c
 
 CMakeFiles/corewar.dir/libft/ft_lstiter.c.i: cmake_force
@@ -1475,7 +1451,7 @@ CMakeFiles/corewar.dir/libft/ft_lstiter.c.o.provides.build: CMakeFiles/corewar.d
 
 CMakeFiles/corewar.dir/libft/ft_lstmap.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_lstmap.c.o: ../libft/ft_lstmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/corewar.dir/libft/ft_lstmap.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/corewar.dir/libft/ft_lstmap.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_lstmap.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_lstmap.c
 
 CMakeFiles/corewar.dir/libft/ft_lstmap.c.i: cmake_force
@@ -1499,7 +1475,7 @@ CMakeFiles/corewar.dir/libft/ft_lstmap.c.o.provides.build: CMakeFiles/corewar.di
 
 CMakeFiles/corewar.dir/libft/ft_pow.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_pow.c.o: ../libft/ft_pow.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/corewar.dir/libft/ft_pow.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/corewar.dir/libft/ft_pow.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_pow.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_pow.c
 
 CMakeFiles/corewar.dir/libft/ft_pow.c.i: cmake_force
@@ -1523,7 +1499,7 @@ CMakeFiles/corewar.dir/libft/ft_pow.c.o.provides.build: CMakeFiles/corewar.dir/l
 
 CMakeFiles/corewar.dir/libft/ft_nbrlen.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_nbrlen.c.o: ../libft/ft_nbrlen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/corewar.dir/libft/ft_nbrlen.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/corewar.dir/libft/ft_nbrlen.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_nbrlen.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_nbrlen.c
 
 CMakeFiles/corewar.dir/libft/ft_nbrlen.c.i: cmake_force
@@ -1547,7 +1523,7 @@ CMakeFiles/corewar.dir/libft/ft_nbrlen.c.o.provides.build: CMakeFiles/corewar.di
 
 CMakeFiles/corewar.dir/libft/ft_swap_bits.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_swap_bits.c.o: ../libft/ft_swap_bits.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/corewar.dir/libft/ft_swap_bits.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/corewar.dir/libft/ft_swap_bits.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_swap_bits.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_swap_bits.c
 
 CMakeFiles/corewar.dir/libft/ft_swap_bits.c.i: cmake_force
@@ -1571,7 +1547,7 @@ CMakeFiles/corewar.dir/libft/ft_swap_bits.c.o.provides.build: CMakeFiles/corewar
 
 CMakeFiles/corewar.dir/libft/ft_wordlen.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_wordlen.c.o: ../libft/ft_wordlen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/corewar.dir/libft/ft_wordlen.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/corewar.dir/libft/ft_wordlen.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_wordlen.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_wordlen.c
 
 CMakeFiles/corewar.dir/libft/ft_wordlen.c.i: cmake_force
@@ -1595,7 +1571,7 @@ CMakeFiles/corewar.dir/libft/ft_wordlen.c.o.provides.build: CMakeFiles/corewar.d
 
 CMakeFiles/corewar.dir/libft/ft_wordcount.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/ft_wordcount.c.o: ../libft/ft_wordcount.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/corewar.dir/libft/ft_wordcount.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/corewar.dir/libft/ft_wordcount.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/ft_wordcount.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/libft/ft_wordcount.c
 
 CMakeFiles/corewar.dir/libft/ft_wordcount.c.i: cmake_force
@@ -1619,7 +1595,7 @@ CMakeFiles/corewar.dir/libft/ft_wordcount.c.o.provides.build: CMakeFiles/corewar
 
 CMakeFiles/corewar.dir/ft_printf/check_flag.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/ft_printf/check_flag.c.o: ../ft_printf/check_flag.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/corewar.dir/ft_printf/check_flag.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/corewar.dir/ft_printf/check_flag.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/check_flag.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/ft_printf/check_flag.c
 
 CMakeFiles/corewar.dir/ft_printf/check_flag.c.i: cmake_force
@@ -1643,7 +1619,7 @@ CMakeFiles/corewar.dir/ft_printf/check_flag.c.o.provides.build: CMakeFiles/corew
 
 CMakeFiles/corewar.dir/ft_printf/choice_function.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/ft_printf/choice_function.c.o: ../ft_printf/choice_function.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/corewar.dir/ft_printf/choice_function.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/corewar.dir/ft_printf/choice_function.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/choice_function.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/ft_printf/choice_function.c
 
 CMakeFiles/corewar.dir/ft_printf/choice_function.c.i: cmake_force
@@ -1667,7 +1643,7 @@ CMakeFiles/corewar.dir/ft_printf/choice_function.c.o.provides.build: CMakeFiles/
 
 CMakeFiles/corewar.dir/ft_printf/ft_printf.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/ft_printf/ft_printf.c.o: ../ft_printf/ft_printf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/corewar.dir/ft_printf/ft_printf.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/corewar.dir/ft_printf/ft_printf.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/ft_printf.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/ft_printf/ft_printf.c
 
 CMakeFiles/corewar.dir/ft_printf/ft_printf.c.i: cmake_force
@@ -1691,7 +1667,7 @@ CMakeFiles/corewar.dir/ft_printf/ft_printf.c.o.provides.build: CMakeFiles/corewa
 
 CMakeFiles/corewar.dir/ft_printf/function_c.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/ft_printf/function_c.c.o: ../ft_printf/function_c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/corewar.dir/ft_printf/function_c.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/corewar.dir/ft_printf/function_c.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/function_c.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/ft_printf/function_c.c
 
 CMakeFiles/corewar.dir/ft_printf/function_c.c.i: cmake_force
@@ -1715,7 +1691,7 @@ CMakeFiles/corewar.dir/ft_printf/function_c.c.o.provides.build: CMakeFiles/corew
 
 CMakeFiles/corewar.dir/ft_printf/function_d.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/ft_printf/function_d.c.o: ../ft_printf/function_d.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/corewar.dir/ft_printf/function_d.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/corewar.dir/ft_printf/function_d.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/function_d.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/ft_printf/function_d.c
 
 CMakeFiles/corewar.dir/ft_printf/function_d.c.i: cmake_force
@@ -1739,7 +1715,7 @@ CMakeFiles/corewar.dir/ft_printf/function_d.c.o.provides.build: CMakeFiles/corew
 
 CMakeFiles/corewar.dir/ft_printf/function_o.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/ft_printf/function_o.c.o: ../ft_printf/function_o.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/corewar.dir/ft_printf/function_o.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/corewar.dir/ft_printf/function_o.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/function_o.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/ft_printf/function_o.c
 
 CMakeFiles/corewar.dir/ft_printf/function_o.c.i: cmake_force
@@ -1763,7 +1739,7 @@ CMakeFiles/corewar.dir/ft_printf/function_o.c.o.provides.build: CMakeFiles/corew
 
 CMakeFiles/corewar.dir/ft_printf/function_s.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/ft_printf/function_s.c.o: ../ft_printf/function_s.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/corewar.dir/ft_printf/function_s.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/corewar.dir/ft_printf/function_s.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/function_s.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/ft_printf/function_s.c
 
 CMakeFiles/corewar.dir/ft_printf/function_s.c.i: cmake_force
@@ -1787,7 +1763,7 @@ CMakeFiles/corewar.dir/ft_printf/function_s.c.o.provides.build: CMakeFiles/corew
 
 CMakeFiles/corewar.dir/ft_printf/function_u.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/ft_printf/function_u.c.o: ../ft_printf/function_u.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/corewar.dir/ft_printf/function_u.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/corewar.dir/ft_printf/function_u.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/function_u.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/ft_printf/function_u.c
 
 CMakeFiles/corewar.dir/ft_printf/function_u.c.i: cmake_force
@@ -1811,7 +1787,7 @@ CMakeFiles/corewar.dir/ft_printf/function_u.c.o.provides.build: CMakeFiles/corew
 
 CMakeFiles/corewar.dir/ft_printf/function_wchar_t.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/ft_printf/function_wchar_t.c.o: ../ft_printf/function_wchar_t.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/corewar.dir/ft_printf/function_wchar_t.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/corewar.dir/ft_printf/function_wchar_t.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/function_wchar_t.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/ft_printf/function_wchar_t.c
 
 CMakeFiles/corewar.dir/ft_printf/function_wchar_t.c.i: cmake_force
@@ -1835,7 +1811,7 @@ CMakeFiles/corewar.dir/ft_printf/function_wchar_t.c.o.provides.build: CMakeFiles
 
 CMakeFiles/corewar.dir/ft_printf/function_x.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/ft_printf/function_x.c.o: ../ft_printf/function_x.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/corewar.dir/ft_printf/function_x.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/corewar.dir/ft_printf/function_x.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/function_x.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/ft_printf/function_x.c
 
 CMakeFiles/corewar.dir/ft_printf/function_x.c.i: cmake_force
@@ -1859,7 +1835,7 @@ CMakeFiles/corewar.dir/ft_printf/function_x.c.o.provides.build: CMakeFiles/corew
 
 CMakeFiles/corewar.dir/ft_printf/function_p.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/ft_printf/function_p.c.o: ../ft_printf/function_p.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/corewar.dir/ft_printf/function_p.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/corewar.dir/ft_printf/function_p.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/function_p.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/ft_printf/function_p.c
 
 CMakeFiles/corewar.dir/ft_printf/function_p.c.i: cmake_force
@@ -1883,7 +1859,7 @@ CMakeFiles/corewar.dir/ft_printf/function_p.c.o.provides.build: CMakeFiles/corew
 
 CMakeFiles/corewar.dir/ft_printf/itoa_base_type.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/ft_printf/itoa_base_type.c.o: ../ft_printf/itoa_base_type.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/corewar.dir/ft_printf/itoa_base_type.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/corewar.dir/ft_printf/itoa_base_type.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/itoa_base_type.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/ft_printf/itoa_base_type.c
 
 CMakeFiles/corewar.dir/ft_printf/itoa_base_type.c.i: cmake_force
@@ -1907,7 +1883,7 @@ CMakeFiles/corewar.dir/ft_printf/itoa_base_type.c.o.provides.build: CMakeFiles/c
 
 CMakeFiles/corewar.dir/ft_printf/itoa_base_type_2.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/ft_printf/itoa_base_type_2.c.o: ../ft_printf/itoa_base_type_2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/corewar.dir/ft_printf/itoa_base_type_2.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/corewar.dir/ft_printf/itoa_base_type_2.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/itoa_base_type_2.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/ft_printf/itoa_base_type_2.c
 
 CMakeFiles/corewar.dir/ft_printf/itoa_base_type_2.c.i: cmake_force
@@ -1931,7 +1907,7 @@ CMakeFiles/corewar.dir/ft_printf/itoa_base_type_2.c.o.provides.build: CMakeFiles
 
 CMakeFiles/corewar.dir/ft_printf/itoa_d_type.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/ft_printf/itoa_d_type.c.o: ../ft_printf/itoa_d_type.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/corewar.dir/ft_printf/itoa_d_type.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/corewar.dir/ft_printf/itoa_d_type.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/itoa_d_type.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/ft_printf/itoa_d_type.c
 
 CMakeFiles/corewar.dir/ft_printf/itoa_d_type.c.i: cmake_force
@@ -1955,7 +1931,7 @@ CMakeFiles/corewar.dir/ft_printf/itoa_d_type.c.o.provides.build: CMakeFiles/core
 
 CMakeFiles/corewar.dir/ft_printf/itoa_d_type_2.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/ft_printf/itoa_d_type_2.c.o: ../ft_printf/itoa_d_type_2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/corewar.dir/ft_printf/itoa_d_type_2.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/corewar.dir/ft_printf/itoa_d_type_2.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/itoa_d_type_2.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/ft_printf/itoa_d_type_2.c
 
 CMakeFiles/corewar.dir/ft_printf/itoa_d_type_2.c.i: cmake_force
@@ -1979,7 +1955,7 @@ CMakeFiles/corewar.dir/ft_printf/itoa_d_type_2.c.o.provides.build: CMakeFiles/co
 
 CMakeFiles/corewar.dir/ft_printf/libft_min.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/ft_printf/libft_min.c.o: ../ft_printf/libft_min.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/corewar.dir/ft_printf/libft_min.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/corewar.dir/ft_printf/libft_min.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/libft_min.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/ft_printf/libft_min.c
 
 CMakeFiles/corewar.dir/ft_printf/libft_min.c.i: cmake_force
@@ -2003,7 +1979,7 @@ CMakeFiles/corewar.dir/ft_printf/libft_min.c.o.provides.build: CMakeFiles/corewa
 
 CMakeFiles/corewar.dir/ft_printf/libft_min_2.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/ft_printf/libft_min_2.c.o: ../ft_printf/libft_min_2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/corewar.dir/ft_printf/libft_min_2.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/corewar.dir/ft_printf/libft_min_2.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/libft_min_2.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/ft_printf/libft_min_2.c
 
 CMakeFiles/corewar.dir/ft_printf/libft_min_2.c.i: cmake_force
@@ -2027,7 +2003,7 @@ CMakeFiles/corewar.dir/ft_printf/libft_min_2.c.o.provides.build: CMakeFiles/core
 
 CMakeFiles/corewar.dir/ft_printf/libft_min_3.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/ft_printf/libft_min_3.c.o: ../ft_printf/libft_min_3.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/corewar.dir/ft_printf/libft_min_3.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/corewar.dir/ft_printf/libft_min_3.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/libft_min_3.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/ft_printf/libft_min_3.c
 
 CMakeFiles/corewar.dir/ft_printf/libft_min_3.c.i: cmake_force
@@ -2051,7 +2027,7 @@ CMakeFiles/corewar.dir/ft_printf/libft_min_3.c.o.provides.build: CMakeFiles/core
 
 CMakeFiles/corewar.dir/ft_printf/libft_min_4.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/ft_printf/libft_min_4.c.o: ../ft_printf/libft_min_4.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/corewar.dir/ft_printf/libft_min_4.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/corewar.dir/ft_printf/libft_min_4.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/libft_min_4.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/ft_printf/libft_min_4.c
 
 CMakeFiles/corewar.dir/ft_printf/libft_min_4.c.i: cmake_force
@@ -2075,7 +2051,7 @@ CMakeFiles/corewar.dir/ft_printf/libft_min_4.c.o.provides.build: CMakeFiles/core
 
 CMakeFiles/corewar.dir/ft_printf/libft_min_5.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/ft_printf/libft_min_5.c.o: ../ft_printf/libft_min_5.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/corewar.dir/ft_printf/libft_min_5.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/corewar.dir/ft_printf/libft_min_5.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/libft_min_5.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/ft_printf/libft_min_5.c
 
 CMakeFiles/corewar.dir/ft_printf/libft_min_5.c.i: cmake_force
@@ -2099,7 +2075,7 @@ CMakeFiles/corewar.dir/ft_printf/libft_min_5.c.o.provides.build: CMakeFiles/core
 
 CMakeFiles/corewar.dir/ft_printf/libft_min_6.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/ft_printf/libft_min_6.c.o: ../ft_printf/libft_min_6.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/corewar.dir/ft_printf/libft_min_6.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/corewar.dir/ft_printf/libft_min_6.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/libft_min_6.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/ft_printf/libft_min_6.c
 
 CMakeFiles/corewar.dir/ft_printf/libft_min_6.c.i: cmake_force
@@ -2123,7 +2099,7 @@ CMakeFiles/corewar.dir/ft_printf/libft_min_6.c.o.provides.build: CMakeFiles/core
 
 CMakeFiles/corewar.dir/ft_printf/libft_min_7.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/ft_printf/libft_min_7.c.o: ../ft_printf/libft_min_7.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/corewar.dir/ft_printf/libft_min_7.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/corewar.dir/ft_printf/libft_min_7.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/libft_min_7.c.o   -c /nfs/2016/s/sromanet/romanets/corewar/ft_printf/libft_min_7.c
 
 CMakeFiles/corewar.dir/ft_printf/libft_min_7.c.i: cmake_force
@@ -2148,7 +2124,6 @@ CMakeFiles/corewar.dir/ft_printf/libft_min_7.c.o.provides.build: CMakeFiles/core
 # Object files for target corewar
 corewar_OBJECTS = \
 "CMakeFiles/corewar.dir/main.c.o" \
-"CMakeFiles/corewar.dir/get_next_line.c.o" \
 "CMakeFiles/corewar.dir/libft/ft_memset.c.o" \
 "CMakeFiles/corewar.dir/libft/ft_bzero.c.o" \
 "CMakeFiles/corewar.dir/libft/ft_memcpy.c.o" \
@@ -2239,7 +2214,6 @@ corewar_OBJECTS = \
 corewar_EXTERNAL_OBJECTS =
 
 corewar: CMakeFiles/corewar.dir/main.c.o
-corewar: CMakeFiles/corewar.dir/get_next_line.c.o
 corewar: CMakeFiles/corewar.dir/libft/ft_memset.c.o
 corewar: CMakeFiles/corewar.dir/libft/ft_bzero.c.o
 corewar: CMakeFiles/corewar.dir/libft/ft_memcpy.c.o
@@ -2327,7 +2301,7 @@ corewar: CMakeFiles/corewar.dir/ft_printf/libft_min_6.c.o
 corewar: CMakeFiles/corewar.dir/ft_printf/libft_min_7.c.o
 corewar: CMakeFiles/corewar.dir/build.make
 corewar: CMakeFiles/corewar.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Linking C executable corewar"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Linking C executable corewar"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/corewar.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -2336,7 +2310,6 @@ CMakeFiles/corewar.dir/build: corewar
 .PHONY : CMakeFiles/corewar.dir/build
 
 CMakeFiles/corewar.dir/requires: CMakeFiles/corewar.dir/main.c.o.requires
-CMakeFiles/corewar.dir/requires: CMakeFiles/corewar.dir/get_next_line.c.o.requires
 CMakeFiles/corewar.dir/requires: CMakeFiles/corewar.dir/libft/ft_memset.c.o.requires
 CMakeFiles/corewar.dir/requires: CMakeFiles/corewar.dir/libft/ft_bzero.c.o.requires
 CMakeFiles/corewar.dir/requires: CMakeFiles/corewar.dir/libft/ft_memcpy.c.o.requires

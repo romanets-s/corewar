@@ -154,9 +154,6 @@
 		<Unit filename="/nfs/2016/s/sromanet/romanets/corewar/ft_printf/libft_min_7.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/nfs/2016/s/sromanet/romanets/corewar/get_next_line.c">
-			<Option target="corewar"/>
-		</Unit>
 		<Unit filename="/nfs/2016/s/sromanet/romanets/corewar/libft/ft_atoi.c">
 			<Option target="corewar"/>
 		</Unit>
