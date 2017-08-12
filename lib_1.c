@@ -46,6 +46,7 @@ void	comment(t_asm *bin, int *i)
 {
 	while (bin->file[*i] != '\n')
 		(*i)++;
+	(*i)++;
 }
 
 int	 ft_stn(char c)

@@ -3,11 +3,10 @@
 
 void	error(t_asm *bin, int *i)
 {
-    printf("wtf bro\n");
+    printf("wtf bro == %d\n", *i);
 
     exit(0);
 }
-
 
 int     len_label(t_asm *bin, int flag)
 {
@@ -30,14 +29,6 @@ int     len_label(t_asm *bin, int flag)
 
 char    *name_label(t_asm *bin, int flag)
 {
-//    int len;
-//    char *str;
-//    int n;
-//
-//    len = len_rev(bin->file, bin->i);
-//    str = ft_strnew((size_t)len);
-//    n = -1;
-
     int len;
     char *str;
     int n;
@@ -49,7 +40,6 @@ char    *name_label(t_asm *bin, int flag)
         str[++n] = bin->file[bin->i - len-- - flag];
     return (str);
 }
-
 
 t_label *create_label(t_label *first, char *name, int i, int code_i)
 {
@@ -78,12 +68,6 @@ int search_label(t_label *l, char *name)
     return (-1);
 }
 
-void    reg_func(t_asm *bin, t_tmp *tmp, int s)
-{
-    tmp->arg[s] = T_REG;
-    tmp->val[s] = (unsigned int)ft_atoi(bin->file + ++bin->i);
-}
-
 int     len_digit(char *str, int i)
 {
     int len;
@@ -92,6 +76,13 @@ int     len_digit(char *str, int i)
     while (ft_isdigit(str[i++]))
         len++;
     return (len);
+}
+
+void    reg_func(t_asm *bin, t_tmp *tmp, int s)
+{
+    tmp->arg[s] = T_REG;
+    tmp->val[s] = (unsigned int)ft_atoi(bin->file + ++bin->i);
+    bin->i += len_digit(bin->file, bin->i);
 }
 
 void    dir_func(t_asm *bin, t_tmp *tmp, int s)
@@ -105,10 +96,10 @@ void    dir_func(t_asm *bin, t_tmp *tmp, int s)
         tmp->val[s] = (unsigned int)ft_atoi(bin->file + bin->i);
         bin->i += len_digit(bin->file, bin->i);
     }
-    else if (bin->file[bin->i] == LABEL_CHAR)
+    else if (bin->file[bin->i++] == LABEL_CHAR)
     {
         if ((i = search_label(bin->lebels, name_label(bin, 0))) != -1)
-            tmp->val[s] = bin->code_i - i;
+            tmp->val[s] = i - bin->code_i;
         else
             ;
     }
@@ -118,13 +109,16 @@ void    dir_func(t_asm *bin, t_tmp *tmp, int s)
 
 void    ind_func(t_asm *bin, t_tmp *tmp, int s)
 {
+    int i;
+
+    i = 0;
     tmp->arg[s] = T_IND;
     if (ft_isdigit(bin->file[++bin->i]))
         tmp->val[s] = (unsigned int)ft_atoi(bin->file + bin->i);
-    else if (bin->file[bin->i] == LABEL_CHAR)
+    else if (bin->file[bin->i++] == LABEL_CHAR)
     {
-        if (search_label(bin->lebels, name_label(bin, 0)) != -1)
-            ;
+        if ((i = search_label(bin->lebels, name_label(bin, 0))) != -1)
+            tmp->val[s] = i - bin->code_i;
         else
             ;
     }
@@ -132,38 +126,60 @@ void    ind_func(t_asm *bin, t_tmp *tmp, int s)
         error(bin, &bin->i);
 }
 
-unsigned char codage(t_tmp *tmp)
+
+void    write_big_code(t_asm *bin, t_tmp *tmp, int s)
 {
+    int len;
 
-}
-
-void    write_big_code(t_asm *bin, t_tmp *tmp, int n)
-{
-    unsigned short int a;
-
-    if (bin->op[tmp->n].size == 2 || tmp->arg[n] == T_IND)
+    len = -1;
+    if (bin->op[tmp->n].size == 2 || tmp->arg[s] == T_IND)
     {
-
+        tmp->val[s] = (unsigned short int)tmp->val[s];
+        bin->code[bin->code_i++] = (unsigned char)(tmp->val[s] >> 8);
+        tmp->val[s] = tmp->val[s] << 24;
+        bin->code[bin->code_i++] = (unsigned char)(tmp->val[s] >> 24);
     }
     else
-        ;
+    {
+        while (++len < 4)
+        {
+            bin->code[bin->code_i++] = (unsigned char)(tmp->val[s] >> 24);
+            tmp->val[s] = tmp->val[s] << 8;
+        }
+    }
+}
+
+unsigned char codage(t_tmp *tmp)
+{
+    unsigned char n;
+    int i;
+
+    i = -1;
+    n = 0;
+    while (++i < 3)
+    {
+        if (tmp->arg[i] == T_IND)
+            tmp->arg[i] = 3;
+        n += tmp->arg[i];
+        n = n << 2;
+    }
+    return (n);
 }
 
 void    write_code(t_asm *bin, t_tmp *tmp)
 {
-    int n;
+    int s;
 
-    n = -1;
+    s = -1;
     bin->code[bin->code_i++] = bin->op[tmp->n].hex;
     if (bin->op[tmp->n].cod)
         bin->code[bin->code_i++] = codage(tmp);
-    while (++n < bin->op[tmp->n].argc)
+    while (++s < bin->op[tmp->n].argc)
     {
-        if (tmp->arg[n] == T_REG)
-            bin->code[bin->code_i++] = (unsigned char)tmp->val[n];
+        if (tmp->arg[s] == T_REG)
+            bin->code[bin->code_i++] = (unsigned char)tmp->val[s];
         else
-            ;
-
+            write_big_code(bin, tmp, s);
     }
 }
 
@@ -236,8 +252,6 @@ int    check_label(t_asm *bin)
         return (1);
     if (label_chars(bin->file[bin->i]))
         return (labels(bin));
-//    if (bin->file[bin->i] == LABEL_CHAR && )
-//        return (1);
     return (0);
 }
 
@@ -245,21 +259,20 @@ void	code(t_asm *bin)
 {
 	while (bin->file[bin->i])
 	{
-        while (ft_stn(bin->file[bin->i]))
+        while (ft_stn(bin->file[bin->i]) || bin->file[bin->i] == '\n')
             bin->i++;
+        if (bin->file[bin->i] == COMMENT_CHAR)
+            comment(bin, &bin->i);
+        if (bin->file[bin->i] == '\0')
+            break ;
         if (check_label(bin))
         {
-
-            printf("wtf borooo\n");
-
-            exit(0);
+            continue ;
         }
         else
             error(bin, &bin->i);
 	}
 }
-
-
 
 void	go(int fd, t_asm *bin, char *old_name)
 {
@@ -273,22 +286,24 @@ void	go(int fd, t_asm *bin, char *old_name)
         bin->file = ft_new_strjoin(bin->file, line);
     }
 	close(fd);
-
-
-
-	printf("%s\n<==============>\n", bin->file);
-
-
 	bin->file_name = file_name(old_name, ft_strlen(old_name));
 	asm_init(bin);
 	name_and_comment(bin);
-
-
-	printf("%s\n", bin->head.prog_name);
-	printf("%s\n", bin->head.comment);
-
 	code(bin);
+
+
+
+    printf("%s\n<==============>\n", bin->file);
+//test how to work
+    for (int i = 0; i < bin->code_i; ++i) {
+        if (i % 16 == 0)
+            printf("\n");
+        if (i % 2 == 0 && i % 16 != 0)
+            printf(" ");
+        printf("%02x", bin->code[i]);
+    }
 }
+
 
 int main(int c, char **v)
 {
