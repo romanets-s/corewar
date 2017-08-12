@@ -55,13 +55,20 @@ typedef struct      s_op
 
 }                   t_op;
 
-typedef struct      s_lable
+typedef struct      s_tmp
+{
+    int             n;
+    unsigned char   arg[3];
+    unsigned int    val[3];
+}                   t_tmp;
+
+typedef struct      s_label
 {
     char            *name;
-    int             start;
-    int             end;
-
-}                   t_lable;
+    int             i;
+    int             code_i;
+    struct s_label  *next;
+}                   t_label;
 
 typedef struct      s_asm
 {
@@ -69,8 +76,9 @@ typedef struct      s_asm
     char            *file;
     int             i;
     unsigned char   *code;
-    unsigned int    code_size;
+    unsigned int    code_i;
     unsigned int    buff_size;
+    struct s_label  *lebels;
     int             name;
     int             comm;
     char            *file_name;
@@ -89,7 +97,7 @@ char    *file_name(char *name, size_t len);
 void    comment(t_asm *bin, int *i);
 int     ft_stn(char c);
 int     label_chars(char c);
-
+void	error(t_asm *bin, int *i);
 
 
 #endif

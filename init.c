@@ -20,7 +20,7 @@ void	op_init(t_asm *bin)
 						{"lfork",	1, {T_DIR},													0, 15, 2},
 						{"aff",		1, {T_REG},													1, 16, 0},
 						{0, 0, 0, 0, 0, 0}
-					}, bin->file, bin->i, bin->code, bin->code_size, .name = bin->name,
+					}, bin->file, bin->i, bin->code, bin->code_i, .name = bin->name,
 			.comm = bin->comm, .file_name = bin->file_name, .head = bin->head};
 }
 
@@ -31,7 +31,8 @@ void	asm_init(t_asm *bin)
 	bin->comm = 0;
 	bin->buff_size = BUFF_SIZE;
 	bin->code = (unsigned char *)malloc(sizeof(unsigned char) * bin->buff_size);
-	bin->code_size = 0;
+	bin->code_i = 0;
+	bin->lebels = NULL;
 
 	bin->head.magic = COREWAR_EXEC_MAGIC;
 //	bin->code_size = sizeof(bin->head.magic) + PROG_NAME_LENGTH + 1 + 4 - ((PROG_NAME_LENGTH + 1) % 4) + 4
