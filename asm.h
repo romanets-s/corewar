@@ -73,14 +73,22 @@ typedef struct      s_asm
     unsigned int    buff_size;
     int             name;
     int             comm;
-    int             tmp;
     char            *file_name;
     struct s_head   head;
 }                   t_asm;
 
 
-
-
+void    op_init(t_asm *bin);
+void    asm_init(t_asm *bin);
+void    write_magic(t_asm *bin, unsigned int magic);
+void    commands_date(t_asm *bin, int *i, int max_len, char *str);
+void    commands(t_asm *bin, int *i);
+void    name_and_comment(t_asm *bin);
+char    *ft_new_strjoin(char *s1, char const *s2);
+char    *file_name(char *name, size_t len);
+void    comment(t_asm *bin, int *i);
+int     ft_stn(char c);
+int     label_chars(char c);
 
 
 

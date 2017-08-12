@@ -123,6 +123,33 @@ corewar/fast:
 	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/build
 .PHONY : corewar/fast
 
+asm.o: asm.c.o
+
+.PHONY : asm.o
+
+# target to build an object file
+asm.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/asm.c.o
+.PHONY : asm.c.o
+
+asm.i: asm.c.i
+
+.PHONY : asm.i
+
+# target to preprocess a source file
+asm.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/asm.c.i
+.PHONY : asm.c.i
+
+asm.s: asm.c.s
+
+.PHONY : asm.s
+
+# target to generate assembly for a file
+asm.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/asm.c.s
+.PHONY : asm.c.s
+
 ft_printf/check_flag.o: ft_printf/check_flag.c.o
 
 .PHONY : ft_printf/check_flag.o
@@ -716,6 +743,87 @@ ft_printf/libft_min_7.s: ft_printf/libft_min_7.c.s
 ft_printf/libft_min_7.c.s:
 	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/ft_printf/libft_min_7.c.s
 .PHONY : ft_printf/libft_min_7.c.s
+
+head.o: head.c.o
+
+.PHONY : head.o
+
+# target to build an object file
+head.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/head.c.o
+.PHONY : head.c.o
+
+head.i: head.c.i
+
+.PHONY : head.i
+
+# target to preprocess a source file
+head.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/head.c.i
+.PHONY : head.c.i
+
+head.s: head.c.s
+
+.PHONY : head.s
+
+# target to generate assembly for a file
+head.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/head.c.s
+.PHONY : head.c.s
+
+init.o: init.c.o
+
+.PHONY : init.o
+
+# target to build an object file
+init.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/init.c.o
+.PHONY : init.c.o
+
+init.i: init.c.i
+
+.PHONY : init.i
+
+# target to preprocess a source file
+init.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/init.c.i
+.PHONY : init.c.i
+
+init.s: init.c.s
+
+.PHONY : init.s
+
+# target to generate assembly for a file
+init.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/init.c.s
+.PHONY : init.c.s
+
+lib_1.o: lib_1.c.o
+
+.PHONY : lib_1.o
+
+# target to build an object file
+lib_1.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/lib_1.c.o
+.PHONY : lib_1.c.o
+
+lib_1.i: lib_1.c.i
+
+.PHONY : lib_1.i
+
+# target to preprocess a source file
+lib_1.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/lib_1.c.i
+.PHONY : lib_1.c.i
+
+lib_1.s: lib_1.c.s
+
+.PHONY : lib_1.s
+
+# target to generate assembly for a file
+lib_1.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/lib_1.c.s
+.PHONY : lib_1.c.s
 
 libft/ft_atoi.o: libft/ft_atoi.c.o
 
@@ -2418,33 +2526,6 @@ libft/ft_wordlen.c.s:
 	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/ft_wordlen.c.s
 .PHONY : libft/ft_wordlen.c.s
 
-main.o: main.c.o
-
-.PHONY : main.o
-
-# target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/main.c.o
-.PHONY : main.c.o
-
-main.i: main.c.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/main.c.i
-.PHONY : main.c.i
-
-main.s: main.c.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/main.c.s
-.PHONY : main.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -2454,6 +2535,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... corewar"
+	@echo "... asm.o"
+	@echo "... asm.i"
+	@echo "... asm.s"
 	@echo "... ft_printf/check_flag.o"
 	@echo "... ft_printf/check_flag.i"
 	@echo "... ft_printf/check_flag.s"
@@ -2520,6 +2604,15 @@ help:
 	@echo "... ft_printf/libft_min_7.o"
 	@echo "... ft_printf/libft_min_7.i"
 	@echo "... ft_printf/libft_min_7.s"
+	@echo "... head.o"
+	@echo "... head.i"
+	@echo "... head.s"
+	@echo "... init.o"
+	@echo "... init.i"
+	@echo "... init.s"
+	@echo "... lib_1.o"
+	@echo "... lib_1.i"
+	@echo "... lib_1.s"
 	@echo "... libft/ft_atoi.o"
 	@echo "... libft/ft_atoi.i"
 	@echo "... libft/ft_atoi.s"
@@ -2709,9 +2802,6 @@ help:
 	@echo "... libft/ft_wordlen.o"
 	@echo "... libft/ft_wordlen.i"
 	@echo "... libft/ft_wordlen.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
 .PHONY : help
 
 

@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/nfs/2016/s/sromanet/romanets/corewar/asm.c" "/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles/corewar.dir/asm.c.o"
   "/nfs/2016/s/sromanet/romanets/corewar/ft_printf/check_flag.c" "/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles/corewar.dir/ft_printf/check_flag.c.o"
   "/nfs/2016/s/sromanet/romanets/corewar/ft_printf/choice_function.c" "/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles/corewar.dir/ft_printf/choice_function.c.o"
   "/nfs/2016/s/sromanet/romanets/corewar/ft_printf/ft_printf.c" "/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles/corewar.dir/ft_printf/ft_printf.c.o"
@@ -26,6 +27,9 @@ set(CMAKE_DEPENDS_CHECK_C
   "/nfs/2016/s/sromanet/romanets/corewar/ft_printf/libft_min_5.c" "/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles/corewar.dir/ft_printf/libft_min_5.c.o"
   "/nfs/2016/s/sromanet/romanets/corewar/ft_printf/libft_min_6.c" "/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles/corewar.dir/ft_printf/libft_min_6.c.o"
   "/nfs/2016/s/sromanet/romanets/corewar/ft_printf/libft_min_7.c" "/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles/corewar.dir/ft_printf/libft_min_7.c.o"
+  "/nfs/2016/s/sromanet/romanets/corewar/head.c" "/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles/corewar.dir/head.c.o"
+  "/nfs/2016/s/sromanet/romanets/corewar/init.c" "/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles/corewar.dir/init.c.o"
+  "/nfs/2016/s/sromanet/romanets/corewar/lib_1.c" "/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles/corewar.dir/lib_1.c.o"
   "/nfs/2016/s/sromanet/romanets/corewar/libft/ft_atoi.c" "/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles/corewar.dir/libft/ft_atoi.c.o"
   "/nfs/2016/s/sromanet/romanets/corewar/libft/ft_bzero.c" "/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles/corewar.dir/libft/ft_bzero.c.o"
   "/nfs/2016/s/sromanet/romanets/corewar/libft/ft_isalnum.c" "/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles/corewar.dir/libft/ft_isalnum.c.o"
@@ -89,7 +93,6 @@ set(CMAKE_DEPENDS_CHECK_C
   "/nfs/2016/s/sromanet/romanets/corewar/libft/ft_toupper.c" "/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles/corewar.dir/libft/ft_toupper.c.o"
   "/nfs/2016/s/sromanet/romanets/corewar/libft/ft_wordcount.c" "/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles/corewar.dir/libft/ft_wordcount.c.o"
   "/nfs/2016/s/sromanet/romanets/corewar/libft/ft_wordlen.c" "/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles/corewar.dir/libft/ft_wordlen.c.o"
-  "/nfs/2016/s/sromanet/romanets/corewar/main.c" "/nfs/2016/s/sromanet/romanets/corewar/cmake-build-debug/CMakeFiles/corewar.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

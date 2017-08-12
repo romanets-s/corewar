@@ -82,7 +82,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/nfs/2016/s/sromanet/romanets/corewar/corewar.h">
+		<Unit filename="/nfs/2016/s/sromanet/romanets/corewar/asm.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/s/sromanet/romanets/corewar/asm.h">
 			<Option target="corewar"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sromanet/romanets/corewar/ft_printf/check_flag.c">
@@ -152,6 +155,15 @@
 			<Option target="corewar"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sromanet/romanets/corewar/ft_printf/libft_min_7.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/s/sromanet/romanets/corewar/head.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/s/sromanet/romanets/corewar/init.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/s/sromanet/romanets/corewar/lib_1.c">
 			<Option target="corewar"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sromanet/romanets/corewar/libft/ft_atoi.c">
@@ -341,9 +353,6 @@
 			<Option target="corewar"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sromanet/romanets/corewar/libft/ft_wordlen.c">
-			<Option target="corewar"/>
-		</Unit>
-		<Unit filename="/nfs/2016/s/sromanet/romanets/corewar/main.c">
 			<Option target="corewar"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sromanet/romanets/corewar/CMakeLists.txt">

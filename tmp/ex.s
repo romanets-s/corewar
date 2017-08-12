@@ -1,7 +1,7 @@
 .name "zork"
 .comment "42just a basic living prog"
 
-
+live %5
 
 sti: live %0
 

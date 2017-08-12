@@ -6,7 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/nfs/2016/s/sromanet/romanets/corewar/corewar.h
+/nfs/2016/s/sromanet/romanets/corewar/asm.c
+asm.h
+/nfs/2016/s/sromanet/romanets/corewar/asm.h
+stdio.h
+-
+
+/nfs/2016/s/sromanet/romanets/corewar/asm.h
 stdlib.h
 -
 unistd.h
@@ -119,6 +125,18 @@ ft_printf.h
 /nfs/2016/s/sromanet/romanets/corewar/ft_printf/libft_min_7.c
 ft_printf.h
 /nfs/2016/s/sromanet/romanets/corewar/ft_printf/ft_printf.h
+
+/nfs/2016/s/sromanet/romanets/corewar/head.c
+asm.h
+/nfs/2016/s/sromanet/romanets/corewar/asm.h
+
+/nfs/2016/s/sromanet/romanets/corewar/init.c
+asm.h
+/nfs/2016/s/sromanet/romanets/corewar/asm.h
+
+/nfs/2016/s/sromanet/romanets/corewar/lib_1.c
+asm.h
+/nfs/2016/s/sromanet/romanets/corewar/asm.h
 
 /nfs/2016/s/sromanet/romanets/corewar/libft/ft_atoi.c
 libft.h
@@ -378,11 +396,5 @@ unistd.h
 stdlib.h
 -
 string.h
--
-
-/nfs/2016/s/sromanet/romanets/corewar/main.c
-corewar.h
-/nfs/2016/s/sromanet/romanets/corewar/corewar.h
-stdio.h
 -
 
