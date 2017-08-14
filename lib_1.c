@@ -44,9 +44,10 @@ char	*file_name(char *name, size_t len)
 
 void	comment(t_asm *bin, int *i)
 {
-	while (bin->file[*i] != '\n')
+	while (bin->file[*i] != '\n' && bin->file[*i] != '\0')
 		(*i)++;
-	(*i)++;
+    if (bin->file[*i] == '\n')
+    	(*i)++;
 }
 
 int	 ft_stn(char c)

@@ -23,13 +23,19 @@ void	error(t_asm *bin, int r, int error)
         ft_printf("Syntax error - unexpected end of input (Perhaps you forgot to end with a newline ?)\n");
     else if(error == 6)
         ft_printf("Invalid parametr for instruction '%s'\n", bin->op[r].name);
+    else if (error == 7)
+    {
+        ft_printf("No such label ");
+        write(1, bin->ptr, ft_strlen(bin->ptr));
+        ft_printf("\n");
+    }
     while (a > -1)
         if (bin->file[a--] == '\n')
             k++;
     while (bin->file[bin->i--] != '\n')
         n++;
-    if (error != 3 && error != 4 && error != 5 && error != 6)
-        printf("Syntax error at token [%d, %d]\n", k, n);
+    if (error != 3 && error != 4 && error != 5 && error != 6 && error != 7 && error != 1 && error != 2)
+        printf("Syntax error at token [%03d:%03d]\n", k, n);
     exit(0);
 }
 
@@ -209,8 +215,11 @@ void    ind_func(t_asm *bin, t_tmp *tmp, int s)
     if ((bin->op[tmp->n].argv[s] & T_IND) != T_IND)
         error(bin, tmp->n, 6);
     tmp->arg[s] = T_IND;
-    if (ft_isdigit(bin->file[++bin->i]))
+    if (ft_isdigit(bin->file[bin->i]))
+    {
         tmp->val[s] = (unsigned int)ft_atoi(bin->file + bin->i);
+        bin->i += len_digit(bin->file, bin->i);
+    }
     else if (bin->file[bin->i++] == LABEL_CHAR)
     {
         if ((i = search_label(bin->lebels, name_label(bin, 0))) != -1)
@@ -347,12 +356,14 @@ int    labels(t_asm *bin)
     if (check_op(bin))
         return (1);
     else if (bin->file[bin->i] == COMMENT_CHAR)
-        comment(bin, &bin->i);
-    else if (bin->file[bin->i] == '\n')
     {
-        bin->i++;
+        comment(bin, &bin->i);
+        if (bin->file[bin->i] == '\0' && bin->file[bin->i - 1] != '\n')
+            error(bin, 0, 0);
         return (1);
     }
+    else if (bin->file[bin->i] == '\n')
+        return (1);
     else
         error(bin, 0, 0);
     return (0);
@@ -428,7 +439,10 @@ void search_insert(t_asm *bin)
             insert_code_1(bin, tmp, i);
         }
         else
-            error(bin, 0, 0);
+        {
+            bin->ptr = tmp->label;
+            error(bin, 0, 7);
+        }
         tmp = tmp->next;
     }
 }
@@ -443,7 +457,7 @@ void	code(t_asm *bin)
             comment(bin, &bin->i);
         if (bin->file[bin->i] == '\0')
             break ;
-        if (check_label(bin) || bin->file[bin->i] == '\0')
+        if (check_label(bin))
         {
             continue ;
         }

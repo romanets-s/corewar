@@ -95,6 +95,7 @@ typedef struct      s_asm
     char            *file_name;
     struct s_head   head;
 	int 			kostyl;
+    char            *ptr;
 }                   t_asm;
 
 

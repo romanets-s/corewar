@@ -37,6 +37,7 @@ void	asm_init(t_asm *bin)
 	bin->head.magic = COREWAR_EXEC_MAGIC;
     ft_bzero(bin->head.prog_name, PROG_NAME_LENGTH + 1);
     ft_bzero(bin->head.comment, COMMENT_LENGTH + 1);
+	bin->ptr = NULL;
 
 //	bin->code_size = sizeof(bin->head.magic) + PROG_NAME_LENGTH + 1 + 4 - ((PROG_NAME_LENGTH + 1) % 4) + 4
 //					 + COMMENT_LENGTH + 1 + 4 - ((COMMENT_LENGTH + 1) % 4);
