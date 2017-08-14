@@ -348,6 +348,11 @@ int    labels(t_asm *bin)
         return (1);
     else if (bin->file[bin->i] == COMMENT_CHAR)
         comment(bin, &bin->i);
+    else if (bin->file[bin->i] == '\n')
+    {
+        bin->i++;
+        return (1);
+    }
     else
         error(bin, 0, 0);
     return (0);
@@ -391,10 +396,9 @@ void    insert_code_1(t_asm *bin, t_insert *tmp, int label_i)
     int         n;
 
     val = (unsigned int)label_i - tmp->code_i;
-    if (tmp->arg == 0)
-        tab = 0;
-    else
-        tab = 1;
+    tab = 1;
+    if (tmp->arg != 0)
+        tab++;
     if (bin->op[bin->insert->op->n].cod == 1)
         tab++;
     n = -1;
@@ -439,7 +443,7 @@ void	code(t_asm *bin)
             comment(bin, &bin->i);
         if (bin->file[bin->i] == '\0')
             break ;
-        if (check_label(bin))
+        if (check_label(bin) || bin->file[bin->i] == '\0')
         {
             continue ;
         }
@@ -450,18 +454,17 @@ void	code(t_asm *bin)
         search_insert(bin);
 }
 
-void	write_magic( unsigned int magic, int fd)
+void	write_int( unsigned int i, int fd)
 {
-    int i;
+    int n;
     unsigned char tmp;
 
-    i = -1;
-    while (++i < 4)
+    n = -1;
+    while (++n < 4)
     {
-        tmp = (unsigned char)(magic >> 24);
-        ft_putchar_fd(tmp, fd);
-//        write(fd, &tmp, 1);
-        magic = magic << 8;
+        tmp = (unsigned char)(i >> 24);
+        write(fd, &tmp, 1);
+        i = i << 8;
     }
 }
 
@@ -469,42 +472,27 @@ void    write_file(t_asm *bin, int tmp)
 {
     int fd;
     int i;
+    int zero;
 
+    zero = 0;
     if ((fd = open(bin->file_name, O_CREAT|O_WRONLY, 0666)) == -1)
     {
         ft_putstr("Can't create file.\n");
         exit (0);
     }
-    //write(fd, &bin->head.magic, 4);
-    write_magic(COREWAR_EXEC_MAGIC, fd);
-    i = -1;
-    while (++i <= PROG_NAME_LENGTH)
-    {
-        ft_putchar_fd(bin->head.prog_name[i], fd);
-        //write(fd, &bin->head.prog_name[i], 1);
-        //write(1, &bin->head.prog_name[i], 1);
-    }
-
+    write_int(COREWAR_EXEC_MAGIC, fd);
+    write(fd, bin->head.prog_name, PROG_NAME_LENGTH + 1);
     i = -1;
     if ((tmp = 4 - (PROG_NAME_LENGTH + 1) % 4) != 4)
         while (++i < tmp)
-            write(fd, 1, 1);
-    i = -1;
-    while (++i <= COMMENT_LENGTH)
-    {
-        ft_putchar_fd(bin->head.comment[i], fd);
-//        write(fd, &bin->head.comment[i], 1);
-//        write(1, &bin->head.comment[i], 1);
-    }
-
+            write(fd, &zero, 1);
+    write_int(bin->code_i, fd);
+    write(fd, bin->head.comment, COMMENT_LENGTH + 1);
     i = -1;
     if ((tmp = 4 - (PROG_NAME_LENGTH + 1) % 4) != 4)
         while (++i < tmp)
-            write(fd, 1, 1);
-    i = -1;
-    while (++i < bin->code_i)
-        ft_putchar_fd(bin->code[i], fd);
-//    write(fd, &, 1);
+            write(fd, &zero, 1);
+    write(fd, bin->code, bin->code_i);
     close(fd);
 }
 

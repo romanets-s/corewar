@@ -39,9 +39,9 @@
 typedef struct		    s_head
 {
     unsigned int		magic;
-    unsigned char				prog_name[PROG_NAME_LENGTH + 1];
+    char				prog_name[PROG_NAME_LENGTH + 1];
     unsigned int		prog_size;
-	unsigned char				comment[COMMENT_LENGTH + 1];
+	char				comment[COMMENT_LENGTH + 1];
 }                       t_head;
 
 typedef struct      s_op
