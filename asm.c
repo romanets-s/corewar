@@ -526,6 +526,8 @@ void	go(int fd, t_asm *bin, char *old_name)
 	asm_init(bin);
 	name_and_comment(bin);
 	code(bin);
+    if (!bin->code_i && bin->lebels == NULL)
+        error(bin, 0, 0);
 	write_file(bin, 0);
 
 
