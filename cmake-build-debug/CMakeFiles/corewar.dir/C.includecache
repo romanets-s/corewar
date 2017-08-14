@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/nfs/2016/s/sromanet/romanets/corewar/asm.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/asm.c
 asm.h
-/nfs/2016/s/sromanet/romanets/corewar/asm.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/asm.h
 stdio.h
 -
 
-/nfs/2016/s/sromanet/romanets/corewar/asm.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/asm.h
 stdlib.h
 -
 unistd.h
@@ -22,23 +22,23 @@ fcntl.h
 limits.h
 -
 libft/libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 ft_printf/ft_printf.h
-/nfs/2016/s/sromanet/romanets/corewar/ft_printf/ft_printf.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/ft_printf/ft_printf.h
 
-/nfs/2016/s/sromanet/romanets/corewar/ft_printf/check_flag.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/ft_printf/check_flag.c
 ft_printf.h
-/nfs/2016/s/sromanet/romanets/corewar/ft_printf/ft_printf.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/ft_printf/ft_printf.h
 
-/nfs/2016/s/sromanet/romanets/corewar/ft_printf/choice_function.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/ft_printf/choice_function.c
 ft_printf.h
-/nfs/2016/s/sromanet/romanets/corewar/ft_printf/ft_printf.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/ft_printf/ft_printf.h
 
-/nfs/2016/s/sromanet/romanets/corewar/ft_printf/ft_printf.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/ft_printf/ft_printf.c
 ft_printf.h
-/nfs/2016/s/sromanet/romanets/corewar/ft_printf/ft_printf.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/ft_printf/ft_printf.h
 
-/nfs/2016/s/sromanet/romanets/corewar/ft_printf/ft_printf.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/ft_printf/ft_printf.h
 stdarg.h
 -
 unistd.h
@@ -50,347 +50,347 @@ inttypes.h
 stddef.h
 -
 
-/nfs/2016/s/sromanet/romanets/corewar/ft_printf/function_c.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/ft_printf/function_c.c
 ft_printf.h
-/nfs/2016/s/sromanet/romanets/corewar/ft_printf/ft_printf.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/ft_printf/ft_printf.h
 
-/nfs/2016/s/sromanet/romanets/corewar/ft_printf/function_d.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/ft_printf/function_d.c
 ft_printf.h
-/nfs/2016/s/sromanet/romanets/corewar/ft_printf/ft_printf.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/ft_printf/ft_printf.h
 
-/nfs/2016/s/sromanet/romanets/corewar/ft_printf/function_o.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/ft_printf/function_o.c
 ft_printf.h
-/nfs/2016/s/sromanet/romanets/corewar/ft_printf/ft_printf.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/ft_printf/ft_printf.h
 
-/nfs/2016/s/sromanet/romanets/corewar/ft_printf/function_p.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/ft_printf/function_p.c
 ft_printf.h
-/nfs/2016/s/sromanet/romanets/corewar/ft_printf/ft_printf.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/ft_printf/ft_printf.h
 
-/nfs/2016/s/sromanet/romanets/corewar/ft_printf/function_s.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/ft_printf/function_s.c
 ft_printf.h
-/nfs/2016/s/sromanet/romanets/corewar/ft_printf/ft_printf.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/ft_printf/ft_printf.h
 
-/nfs/2016/s/sromanet/romanets/corewar/ft_printf/function_u.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/ft_printf/function_u.c
 ft_printf.h
-/nfs/2016/s/sromanet/romanets/corewar/ft_printf/ft_printf.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/ft_printf/ft_printf.h
 
-/nfs/2016/s/sromanet/romanets/corewar/ft_printf/function_wchar_t.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/ft_printf/function_wchar_t.c
 ft_printf.h
-/nfs/2016/s/sromanet/romanets/corewar/ft_printf/ft_printf.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/ft_printf/ft_printf.h
 
-/nfs/2016/s/sromanet/romanets/corewar/ft_printf/function_x.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/ft_printf/function_x.c
 ft_printf.h
-/nfs/2016/s/sromanet/romanets/corewar/ft_printf/ft_printf.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/ft_printf/ft_printf.h
 
-/nfs/2016/s/sromanet/romanets/corewar/ft_printf/itoa_base_type.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/ft_printf/itoa_base_type.c
 ft_printf.h
-/nfs/2016/s/sromanet/romanets/corewar/ft_printf/ft_printf.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/ft_printf/ft_printf.h
 
-/nfs/2016/s/sromanet/romanets/corewar/ft_printf/itoa_base_type_2.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/ft_printf/itoa_base_type_2.c
 ft_printf.h
-/nfs/2016/s/sromanet/romanets/corewar/ft_printf/ft_printf.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/ft_printf/ft_printf.h
 
-/nfs/2016/s/sromanet/romanets/corewar/ft_printf/itoa_d_type.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/ft_printf/itoa_d_type.c
 ft_printf.h
-/nfs/2016/s/sromanet/romanets/corewar/ft_printf/ft_printf.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/ft_printf/ft_printf.h
 
-/nfs/2016/s/sromanet/romanets/corewar/ft_printf/itoa_d_type_2.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/ft_printf/itoa_d_type_2.c
 ft_printf.h
-/nfs/2016/s/sromanet/romanets/corewar/ft_printf/ft_printf.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/ft_printf/ft_printf.h
 
-/nfs/2016/s/sromanet/romanets/corewar/ft_printf/libft_min.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/ft_printf/libft_min.c
 ft_printf.h
-/nfs/2016/s/sromanet/romanets/corewar/ft_printf/ft_printf.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/ft_printf/ft_printf.h
 
-/nfs/2016/s/sromanet/romanets/corewar/ft_printf/libft_min_2.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/ft_printf/libft_min_2.c
 ft_printf.h
-/nfs/2016/s/sromanet/romanets/corewar/ft_printf/ft_printf.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/ft_printf/ft_printf.h
 
-/nfs/2016/s/sromanet/romanets/corewar/ft_printf/libft_min_3.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/ft_printf/libft_min_3.c
 ft_printf.h
-/nfs/2016/s/sromanet/romanets/corewar/ft_printf/ft_printf.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/ft_printf/ft_printf.h
 
-/nfs/2016/s/sromanet/romanets/corewar/ft_printf/libft_min_4.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/ft_printf/libft_min_4.c
 ft_printf.h
-/nfs/2016/s/sromanet/romanets/corewar/ft_printf/ft_printf.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/ft_printf/ft_printf.h
 
-/nfs/2016/s/sromanet/romanets/corewar/ft_printf/libft_min_5.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/ft_printf/libft_min_5.c
 ft_printf.h
-/nfs/2016/s/sromanet/romanets/corewar/ft_printf/ft_printf.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/ft_printf/ft_printf.h
 
-/nfs/2016/s/sromanet/romanets/corewar/ft_printf/libft_min_6.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/ft_printf/libft_min_6.c
 ft_printf.h
-/nfs/2016/s/sromanet/romanets/corewar/ft_printf/ft_printf.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/ft_printf/ft_printf.h
 
-/nfs/2016/s/sromanet/romanets/corewar/ft_printf/libft_min_7.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/ft_printf/libft_min_7.c
 ft_printf.h
-/nfs/2016/s/sromanet/romanets/corewar/ft_printf/ft_printf.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/ft_printf/ft_printf.h
 
-/nfs/2016/s/sromanet/romanets/corewar/head.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/head.c
 asm.h
-/nfs/2016/s/sromanet/romanets/corewar/asm.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/asm.h
 
-/nfs/2016/s/sromanet/romanets/corewar/init.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/init.c
 asm.h
-/nfs/2016/s/sromanet/romanets/corewar/asm.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/asm.h
 
-/nfs/2016/s/sromanet/romanets/corewar/lib_1.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/lib_1.c
 asm.h
-/nfs/2016/s/sromanet/romanets/corewar/asm.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/asm.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_atoi.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_atoi.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_bzero.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_bzero.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_isalnum.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_isalnum.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_isalpha.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_isalpha.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_isascii.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_isascii.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_isdigit.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_isdigit.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_isprint.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_isprint.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_itoa.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_itoa.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_lstadd.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_lstadd.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_lstdel.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_lstdel.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_lstdelone.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_lstdelone.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_lstiter.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_lstiter.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_lstmap.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_lstmap.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_lstnew.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_lstnew.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_memalloc.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_memalloc.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_memccpy.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_memccpy.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_memchr.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_memchr.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_memcmp.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_memcmp.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_memcpy.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_memcpy.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_memdel.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_memdel.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_memmove.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_memmove.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_memset.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_memset.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_nbrlen.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_nbrlen.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_pow.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_pow.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_putchar.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_putchar.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_putchar_fd.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_putchar_fd.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_putendl.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_putendl.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_putendl_fd.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_putendl_fd.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_putnbr.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_putnbr.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_putnbr_fd.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_putnbr_fd.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_putstr.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_putstr.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_putstr_fd.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_putstr_fd.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_strcat.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_strcat.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_strchr.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_strchr.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_strclr.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_strclr.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_strcmp.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_strcmp.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_strcpy.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_strcpy.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_strdel.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_strdel.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_strdup.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_strdup.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_strequ.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_strequ.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_striter.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_striter.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_striteri.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_striteri.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_strjoin.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_strjoin.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_strlcat.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_strlcat.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_strlen.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_strlen.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_strmap.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_strmap.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_strmapi.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_strmapi.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_strncat.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_strncat.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_strncmp.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_strncmp.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_strncpy.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_strncpy.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_strnequ.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_strnequ.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_strnew.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_strnew.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_strnstr.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_strnstr.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_strrchr.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_strrchr.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_strsplit.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_strsplit.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_strstr.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_strstr.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_strsub.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_strsub.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_strtrim.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_strtrim.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_swap_bits.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_swap_bits.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_tolower.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_tolower.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_toupper.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_toupper.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_wordcount.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_wordcount.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/ft_wordlen.c
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/ft_wordlen.c
 libft.h
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 
-/nfs/2016/s/sromanet/romanets/corewar/libft/libft.h
+/nfs/2016/s/sromanet/romanets/corewar_v2/libft/libft.h
 unistd.h
 -
 stdlib.h

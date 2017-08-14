@@ -33,7 +33,7 @@ void	asm_init(t_asm *bin)
 	bin->code = (unsigned char *)malloc(sizeof(unsigned char) * bin->buff_size);
 	bin->code_i = 0;
 	bin->lebels = NULL;
-
+	bin->insert = NULL;
 	bin->head.magic = COREWAR_EXEC_MAGIC;
 //	bin->code_size = sizeof(bin->head.magic) + PROG_NAME_LENGTH + 1 + 4 - ((PROG_NAME_LENGTH + 1) % 4) + 4
 //					 + COMMENT_LENGTH + 1 + 4 - ((COMMENT_LENGTH + 1) % 4);

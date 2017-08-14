@@ -39,9 +39,9 @@
 typedef struct		    s_head
 {
     unsigned int		magic;
-    char				prog_name[PROG_NAME_LENGTH + 1];
+    unsigned char				prog_name[PROG_NAME_LENGTH + 1];
     unsigned int		prog_size;
-    char				comment[COMMENT_LENGTH + 1];
+	unsigned char				comment[COMMENT_LENGTH + 1];
 }                       t_head;
 
 typedef struct      s_op
@@ -58,8 +58,9 @@ typedef struct      s_op
 typedef struct      s_tmp
 {
     int             n;
-    unsigned char   arg[3];
-    unsigned int    val[3];
+	int 			argc;
+    unsigned char   *arg;
+    unsigned int    *val;
 }                   t_tmp;
 
 typedef struct      s_label
@@ -70,6 +71,15 @@ typedef struct      s_label
     struct s_label  *next;
 }                   t_label;
 
+typedef struct		s_insert
+{
+	char 			*label;
+	int 			code_i;
+	int 			arg;
+	struct s_tmp	*op;
+	struct s_insert	*next;
+}					t_insert;
+
 typedef struct      s_asm
 {
     struct s_op     op[OPERATIONS_NUM + 1];
@@ -79,16 +89,17 @@ typedef struct      s_asm
     unsigned int    code_i;
     unsigned int    buff_size;
     struct s_label  *lebels;
+	struct s_insert	*insert;
     int             name;
     int             comm;
     char            *file_name;
     struct s_head   head;
+	int 			kostyl;
 }                   t_asm;
 
 
 void    op_init(t_asm *bin);
 void    asm_init(t_asm *bin);
-void    write_magic(t_asm *bin, unsigned int magic);
 void    commands_date(t_asm *bin, int *i, int max_len, char *str);
 void    commands(t_asm *bin, int *i);
 void    name_and_comment(t_asm *bin);
@@ -97,7 +108,7 @@ char    *file_name(char *name, size_t len);
 void    comment(t_asm *bin, int *i);
 int     ft_stn(char c);
 int     label_chars(char c);
-void	error(t_asm *bin, int *i);
+void	error(t_asm *bin, int n, int error);
 
 
 #endif

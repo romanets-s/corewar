@@ -1,18 +1,5 @@
 #include "asm.h"
 
-//re write this func
-void	write_magic(t_asm *bin, unsigned int magic)
-{
-	int i;
-
-	i = -1;
-	while (++i < 4)
-	{
-		bin->code[i] = (unsigned char)(magic >> 24);
-		magic = magic << 8;
-	}
-}
-
 void	commands_date(t_asm *bin, int *i, int max_len, char *str)
 {
 	int n;
@@ -40,7 +27,7 @@ void	commands_date(t_asm *bin, int *i, int max_len, char *str)
 			}
 		}
 	}
-	error(bin, i);
+	bin->name == 1 ? error(bin, 0, 2) : error(bin, 0, 1);
 }
 
 void	commands(t_asm *bin, int *i)
@@ -58,7 +45,7 @@ void	commands(t_asm *bin, int *i)
 		commands_date(bin, i, COMMENT_LENGTH, (char *)&bin->head.comment);
 	}
 	else
-		error(bin, i);
+		bin->name == 1 ? error(bin, 0, 2) : error(bin, 0, 1);
 }
 
 void	name_and_comment(t_asm *bin)
@@ -72,12 +59,12 @@ void	name_and_comment(t_asm *bin)
 			break ;
 		if (ft_stn(bin->file[i]) || bin->file[i] == '\n')
 			i++;
-		else if (bin->file[i] == '.')
+		else if (bin->file[i] == NAME_CMD_STRING[0])
 			commands(bin, &i);
 		else if (bin->file[i] == COMMENT_CHAR)
 			comment(bin, &i);
 		else
-			error(bin, &i);
+			bin->name == 1 ? error(bin, 0, 4) : error(bin, 0, 3);
 	}
 	while (ft_stn(bin->file[i]) || bin->file[i] == '\n' || bin->file[i] == COMMENT_CHAR)
 	{
