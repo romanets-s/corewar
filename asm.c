@@ -195,13 +195,14 @@ void	dir_func(t_asm *bin, t_tmp *tmp, int s)
 	else if (bin->file[bin->i++] == LABEL_CHAR)
 	{
 		if ((i = search_label(bin->lebels, name_label(bin, 0))) != -1)
-			tmp->val[s] = i - bin->code_i;
+            tmp->val[s] = i - bin->code_i;
 		else
 		{
 			bin->i -= bin->kostyl;
 			bin->insert = create_insert(bin->insert, name_label(bin, 0), bin->code_i, s, tmp);
 			tmp->val[s] = 0;
 		}
+
 	}
 	else
 	{
@@ -411,9 +412,9 @@ void	insert_code_1(t_asm *bin, t_insert *tmp, int label_i)
 	int		 n;
 
 	val = (unsigned int)label_i - tmp->code_i;
-	tab = 1;
+	tab = 0;
 	if (tmp->arg != 0)
-		tab++;
+		tab = 1;
 	if (bin->op[bin->insert->op->n].cod == 1)
 		tab++;
 	n = -1;
