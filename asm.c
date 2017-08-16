@@ -159,6 +159,11 @@ int	 len_digit(char *str, int i)
 	int len;
 
 	len = 0;
+    if (str[i] == '-')
+    {
+        len++;
+        i++;
+    }
 	while (ft_isdigit(str[i++]))
 		len++;
 	return (len);
@@ -183,7 +188,7 @@ void	dir_func(t_asm *bin, t_tmp *tmp, int s)
 	if ((bin->op[tmp->n].argv[s] & T_DIR) != T_DIR)
 		error(bin, tmp->n, 6);
 	tmp->arg[s] = T_DIR;
-	if (ft_isdigit(bin->file[++bin->i]))
+	if (ft_isdigit(bin->file[++bin->i]) || bin->file[bin->i] == '-')
 	{
 		tmp->val[s] = (unsigned int)ft_atoi(bin->file + bin->i);
 		bin->i += len_digit(bin->file, bin->i);
@@ -548,11 +553,14 @@ int main(int c, char **v)
 	int fd;
 	t_asm bin[1];
 
-	if ((fd = open(v[1], O_RDONLY)) == -1)
-	{
-		ft_putstr("Can't open file.\n");
-	}
+	if ((fd = open(v[c - 1], O_RDONLY)) == -1)
+        ft_printf("Can't read source file %s\n", v[c - 1]);
 	else
-		go(fd, (t_asm *)&bin, v[1]);
+    {
+        go(fd, (t_asm *)&bin, v[1]);
+        ft_printf("Writing output program to %s\n", v[c - 1]);
+    }
+//    while(1);
+
 	return 0;
 }
