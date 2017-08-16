@@ -10,7 +10,6 @@ void	error(t_asm *bin, int r, int error)
 	n = 0;
 	k = 1;
 	a = bin->i;
-//	printf("wtf bro == %c\n", bin->file[*i]);
 	if (error == 1)
 		ft_printf("Syntax error in Name");
 	else if(error == 2)
@@ -534,17 +533,6 @@ void	go(int fd, t_asm *bin, char *old_name)
     if (!bin->code_i && bin->lebels == NULL)
         error(bin, 0, 0);
 	write_file(bin, 0);
-
-
-	printf("%s\n<==============>\n", bin->file);
-//test how to work
-	for (int i = 0; i < bin->code_i; ++i) {
-		if (i % 16 == 0)
-			printf("\n");
-		if (i % 2 == 0 && i % 16 != 0)
-			printf(" ");
-		printf("%02x", bin->code[i]);
-	}
 }
 
 int main(int c, char **v)
@@ -553,14 +541,18 @@ int main(int c, char **v)
 	int fd;
 	t_asm bin[1];
 
-	if ((fd = open(v[c - 1], O_RDONLY)) == -1)
-        ft_printf("Can't read source file %s\n", v[c - 1]);
-	else
+    if (c > 1)
     {
-        go(fd, (t_asm *)&bin, v[1]);
-        ft_printf("Writing output program to %s\n", v[c - 1]);
+        if ((fd = open(v[c - 1], O_RDONLY)) == -1)
+            ft_printf("Can't read source file %s\n", v[c - 1]);
+        else
+        {
+            go(fd, (t_asm *)&bin, v[1]);
+            ft_printf("Writing output program to %s\n", v[c - 1]);
+        }
     }
-//    while(1);
-
+    else
+        ft_printf("Usage: ./tmp/asm [-a] <sourcefile.s>\n    -a : Instead of creating a .cor file, "
+                          "outputs a stripped and annotated version of the code to the standard output\n");
 	return 0;
 }
