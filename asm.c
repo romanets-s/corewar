@@ -77,6 +77,8 @@ void			go(int fd, t_asm *bin, char *old_name)
 	bin->file = ft_strnew(0);
 	while ((n = read(fd, line, BUFF_SIZE)))
 	{
+		if (n == -1)
+			error(bin, 0, 8);
 		line[n] = '\0';
 		bin->file = ft_new_strjoin(bin->file, line);
 	}
@@ -92,6 +94,7 @@ void			go(int fd, t_asm *bin, char *old_name)
 int				main(int c, char **v)
 {
 	int		fd;
+	int		i;
 	t_asm	bin[1];
 
 	if (c > 1)
@@ -100,6 +103,9 @@ int				main(int c, char **v)
 			ft_printf("Can't read source file %s\n", v[c - 1]);
 		else
 		{
+			i = ft_strlen(v[c - 1]);
+			if (v[c - 1][i - 1] != 's' && v[c - 1][i - 2] != '.')
+				error(bin, 0, 9);
 			go(fd, (t_asm *)&bin, v[1]);
 			ft_printf("Writing output program to %s\n", bin->file_name);
 		}

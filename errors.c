@@ -21,23 +21,24 @@ void	error2(t_asm *bin, int error)
 	n = 0;
 	k = 1;
 	a = bin->i;
-	while (a > -1)
-		if (bin->file[a--] == '\n')
-			k++;
-	while (bin->file[bin->i--] != '\n')
-		n++;
-	if (error != 3 && error != 4 && error != 5 && error != 6
-		&& error != 7 && error != 1 && error != 2)
+	if (error <= 0 && error >= 10)
+	{
+		while (a > -1)
+			if (bin->file[a--] == '\n')
+				k++;
+		while (bin->file[bin->i--] != '\n')
+			n++;
 		ft_printf("Syntax error at token [%03d:%03d]\n", k, n);
+	}
 	exit(0);
 }
 
 void	error(t_asm *bin, int r, int error)
 {
 	if (error == 1)
-		ft_printf("Syntax error in Name");
+		ft_printf("Syntax error in Name\n");
 	else if (error == 2)
-		ft_printf("Syntax error in Comment");
+		ft_printf("Syntax error in Comment\n");
 	else if (error == 3)
 		ft_printf("No Name\n");
 	else if (error == 4)
@@ -53,5 +54,9 @@ void	error(t_asm *bin, int r, int error)
 		write(1, bin->ptr, ft_strlen(bin->ptr));
 		ft_printf("\n");
 	}
+	else if (error == 8)
+		ft_printf("Syntax error at token [TOKEN][001:001] END '(null)'\n");
+	else if (error == 9)
+		ft_printf("Use file .s\n");
 	error2(bin, error);
 }
