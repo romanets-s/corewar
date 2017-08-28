@@ -75,13 +75,13 @@ void			go(int fd, t_asm *bin, char *old_name)
 
 	asm_init(bin);
 	bin->file = ft_strnew(0);
-	while ((n = read(fd, line, BUFF_SIZE)))
+	while ((n = read(fd, line, BUFF_SIZE)) > 0)
 	{
-		if (n == -1)
-			error(bin, 0, 8);
 		line[n] = '\0';
 		bin->file = ft_new_strjoin(bin->file, line);
 	}
+	if (n < 0)
+		error(bin, 0, 8);
 	close(fd);
 	bin->file_name = file_name(old_name, ft_strlen(old_name));
 	name_and_comment(bin);

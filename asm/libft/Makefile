@@ -32,18 +32,14 @@ all: $(NAME)
 
 $(NAME): $(OBJECTS)
 	@ar rc $(NAME) $(OBJECTS)
-	@echo "\033[32;1m<libft>    | done"
 
 %.o: %.c
 	@gcc $(FLAGS) -c -o $@ $<
 
 clean:
 	@rm -f $(OBJECTS)
-	@echo "\033[32;1m<libft>    | clean succes"
 
 fclean: clean
 	@rm -f $(NAME)
-	@echo "\033[32;1m<libft>    | fclean succes"
 
 re: fclean all
-	@echo "\033[32;1m<libft>    | re succes"

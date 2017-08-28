@@ -24,18 +24,14 @@ all: $(NAME)
 
 $(NAME): $(OBJECTS)
 	@ar rc $(NAME) $(OBJECTS)
-	@echo "\033[32;1m<ftprintf> | done"
 
 %.o: %.c
 	@$(CC) $(FLAGS) -c -o $@ $<
 
 clean:
 	@rm -rf $(OBJECTS)
-	@echo "\033[32;1m<ftprintf> | clean succes"
 
 fclean: clean
 	@rm -rf $(NAME)
-	@echo "\033[32;1m<ftprintf> | fclean succes"
 
 re: fclean all
-	@echo "\033[32;1m<ftprintf> | re succes"
