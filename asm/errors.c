@@ -22,8 +22,7 @@ void	error2(t_asm *bin, int error)
 	k = 1;
 	a = bin->i;
 	if (error != 3 && error != 4 && error != 5 && error != 6
-		&& error != 7 && error != 1 && error != 2 && error != 7 && error != 8
- 																&& error != 9)
+		&& error != 7 && error != 1 && error != 2 && error != 8 && error != 9)
 	{
 		while (a > -1)
 			if (bin->file[a--] == '\n')
